@@ -18,7 +18,6 @@ onMounted(() => {
     <Preloader />
     <NavBar style="z-index: 100" />
     <Hero style="z-index: 0" />
-    <Test-ca/>
     <About id="About" />
     <Services id="Service" />
     <Contact id="Contact" />
