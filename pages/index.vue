@@ -14,13 +14,14 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="bg-orange-100 ">
+  <div>
     <Preloader />
-    <NavBar style="z-index: 100" />
-    <Hero style="z-index: 0" />
+    <NavBar style="z-index: 100;"/>
+    <Hero />
     <About id="About" />
     <Services id="Service" />
     <Contact id="Contact" />
+    <About-us />
     <Scroller/>
     <Footer />
   </div>
