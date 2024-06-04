@@ -12,14 +12,14 @@
                     Speak to Sales
                 </a> 
             </div>
-            <div class="hidden lg:col-span-5 grid-cols-2 lg:flex mt-9 h-96">
-                <div>
-                    <img src="/img/p1.png" alt="mockup">
+            <div class="hidden lg:flex lg:col-span-5 mt-9 h-96 relative">
+                <div class="relative">
+                    <img src="/img/p1.png" alt="mockup" class="h-full">
                 </div>
-                <div>
-                    <img src="/img/p2.png" alt="mockup">
+                <div class="absolute right-0 bottom-0 transform translate-x-[15%] translate-y-[10%]">
+                    <img src="/img/p2.png" alt="mockup" class="h-[85%]">
                 </div>
-            </div>                
+            </div>                          
         </div>
     </section>
 </template>
