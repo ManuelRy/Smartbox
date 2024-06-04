@@ -8,15 +8,13 @@ import Footer from "~/components/Footer.vue";
 onMounted(() => {
   initFlowbite();
 });
-// const scrollTop = () => {
-//   window.scrollTo(0, 0)
-// }
+
 </script>
 
 <template>
   <div>
     <Preloader />
-    <NavBar style="z-index: 100;"/>
+    <NavBar style="z-index: 1050 !important; position:relative;"/>
     <Hero />
     <About id="About" />
     <Services id="Service" />

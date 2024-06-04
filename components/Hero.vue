@@ -12,8 +12,8 @@
                     Speak to Sales
                 </a> 
             </div>
-            <div class="hidden lg:col-span-5 lg:flex mt-80">
-                <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
+            <div class="hidden lg:col-span-5 lg:flex mt-44">
+                <img src="/img/Application.png" alt="mockup">
             </div>                
         </div>
     </section>
