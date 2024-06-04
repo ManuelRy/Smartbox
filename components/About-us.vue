@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-orange-200 dark:bg-gray-900 mt-8" data-aos="fade-up">
+    <section class="bg-orange-200 dark:bg-gray-900" data-aos="fade-up">
         <div class="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div class="max-w-screen lg:mb-16">
                 <h1 class="mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center">
