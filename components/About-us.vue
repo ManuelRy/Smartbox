@@ -13,15 +13,15 @@
                 </h3>
             </div>
             <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-                <div class="max-w-sm rounded-lg">
+                <div class="max-w-sm rounded-md">
                     <img src="/img/about/convinient.png" alt="">
-                    <h2 class="text-white text-center text-4xl font-extrabold mt-4">Convinient</h2>
+                    <h2 class="text-white text-center text-4xl font-extrabold mt-4">Convenient</h2>
                 </div>
-                <div class="max-w-sm rounded-lg">
+                <div class="max-w-sm rounded-md">
                     <img src="/img/about/secure.png" alt="">
                     <h2 class="text-white text-center text-4xl font-extrabold mt-4">Secure</h2>
                 </div>
-                <div class="max-w-sm rounded-lg">
+                <div class="max-w-sm rounded-md">
                     <img src="/img/about/24.png" alt="">
                     <h2 class="text-white text-center text-4xl font-extrabold mt-4">24/7</h2>
                 </div>
