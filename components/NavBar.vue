@@ -4,7 +4,7 @@
       class="bg-white dark:bg-gray-900 fixed z-1000 top-0 left-0 right-0 md:w-full w-full lg:w-9/12 mx-auto border-b border-gray-200 dark:border-gray-600 items-center"
     >
       <div
-        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        class="max-w-screen-xl flex flex-wrap justify-between mx-auto p-4"
       >
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img
@@ -82,6 +82,13 @@
                 href="#Contact"
                 class="block py-2 px-3 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >CONTACT</a
+              >
+            </li>
+            <li>
+              <a
+                href="#Contact"
+                class="block py-2 px-3 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >MEMBERS</a
               >
             </li>
           </ul>
