@@ -10,9 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
     "@mdi/font": "^7.4.47",
     "@nuxt/image": "^1.6.0",
     "@nuxt/ui": "^2.15.2",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
     "flowbite": "^2.3.0",

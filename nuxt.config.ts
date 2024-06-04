@@ -5,10 +5,10 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light',
   },
-  modules: ["@nuxt/ui", "@nuxt/image", "nuxt-aos"],
+  modules: ["@nuxt/ui", "@nuxt/image", "nuxt-aos", "nuxt-icon"],
   css: [
     '~/assets/css/main.css',
-    'animate.css/animate.min.css'
+    'animate.css/animate.min.css',
   ],
   postcss: {
     plugins: {

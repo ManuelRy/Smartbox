@@ -1,32 +1,45 @@
 <template>
-  <footer class="dark:bg-gray-900 overflow-hidden" data-aos="fade-up" style="background-color: orange;">
+  <footer
+    class="dark:bg-gray-900 overflow-hidden"
+    data-aos="fade-up"
+    style="background-color: orange"
+  >
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
-          <a href="https://flowbite.com/" class="flex items-center">
-            <img
-              src="/img/logo.png"
-              class="h-16"
-              alt="SmartBox Logo"
-            />
+          <a href="" class="flex items-center">
+            <img src="/img/logo.png" class="h-16" alt="SmartBox Logo" />
           </a>
+          <p class="ml-12 mb-6">
+            <Icon name="fa6-solid:location-dot" />
+            Russian Federation Blvd (110), Phnom Penh 120404
+          </p>
+          <p class="ml-12 mb-6">
+            <Icon name="fa6-solid:phone" />
+            010 505 302
+          </p>
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
             <h2
               class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
             >
-              Resources
+              Service
             </h2>
             <ul class="text-black dark:text-gray-400 font-medium">
               <li class="mb-4">
                 <a href="https://flowbite.com/" class="hover:underline"
-                  >Flowbite</a
+                  >Storage</a
                 >
               </li>
-              <li>
+              <li class="mb-4">
                 <a href="https://tailwindcss.com/" class="hover:underline"
-                  >Tailwind CSS</a
+                  >Delivery</a
+                >
+              </li>
+              <li class="mb-4">
+                <a href="https://tailwindcss.com/" class="hover:underline"
+                  >Events</a
                 >
               </li>
             </ul>
@@ -35,35 +48,41 @@
             <h2
               class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
             >
-              Follow us
+              About Us
             </h2>
             <ul class="text-black dark:text-gray-400 font-medium">
               <li class="mb-4">
                 <a
                   href="https://github.com/themesberg/flowbite"
                   class="hover:underline"
-                  >Github</a
+                  >Company Aim</a
                 >
               </li>
               <li>
                 <a href="https://discord.gg/4eeurUVvTy" class="hover:underline"
-                  >Discord</a
+                  >Terms & Conditions</a
                 >
               </li>
             </ul>
           </div>
           <div>
             <h2
-              class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
+              class="mb-6 font-semibold text-white uppercase dark:text-white"
             >
-              Legal
+              Contact Us
             </h2>
             <ul class="text-black dark:text-gray-400 font-medium">
-              <li class="mb-4">
-                <a href="#" class="hover:underline">Privacy Policy</a>
+              <li class="">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61556244512123&mibextid=LQQJ4d"
+                  ><Icon name="fa6-brands:square-facebook"
+                /></a>
               </li>
-              <li>
-                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+              <li class="">
+                <a
+                  href="https://www.instagram.com/smartbox_cambodia?igsh=MWtzZzhraHh1YjRqbQ=="
+                  ><Icon name="fa6-brands:instagram"
+                /></a>
               </li>
             </ul>
           </div>
@@ -78,7 +97,7 @@
           <a href="https://flowbite.com/" class="hover:underline">SmartBox™</a>.
           All Rights Reserved.
         </span>
-        <div class="flex mt-4 sm:justify-center sm:mt-0">
+        <!-- <div class="flex mt-4 sm:justify-center sm:mt-0">
           <a
             href="#"
             class="text-black hover:text-gray-900 dark:hover:text-white"
@@ -172,7 +191,7 @@
             </svg>
             <span class="sr-only">Dribbble account</span>
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
