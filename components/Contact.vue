@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg-orange-300 my-12 mx-auto px-2 md:px-4" data-aos="fade-up">
+  <div class="container bg-orange-300 my-12 px-2 md:px-4" data-aos="fade-up">
     <section class="mb-32">
       <div class="flex justify-center lg:mb-8">
         <div class="text-center md:max-w-xl lg:max-w-3xl">
