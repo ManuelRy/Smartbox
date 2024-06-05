@@ -2,7 +2,7 @@
   <footer
     class="dark:bg-gray-900 overflow-hidden"
     data-aos="fade-up"
-    style="background-color: orange"
+    style="background-color: white"
   >
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">
