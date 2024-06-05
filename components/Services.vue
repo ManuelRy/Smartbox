@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-orange-200 dark:bg-gray-900" >
-    <div class="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-up">
+  <section class=" dark:bg-gray-900" >
+    <div class="px-4 mx-auto container max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-up">
       <div class="max-w-screen lg:mb-16">
         <h2
           class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center"

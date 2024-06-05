@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-orange-200">
+  <section>
     <div class="container mx-auto" data-aos="fade-up">
       <div class="flex justify-center">
         <div class="text-center md:max-w-xl lg:max-w-3xl">
