@@ -12,8 +12,9 @@
         including but not limited to certain types of goods.
       </p>
     </div>
-    <div class="my-12 flex justify-center items-center ">
+    <div class="my-12 flex justify-center items-center">
       <img src="/img/T&C.png" alt="fobidden-items" class="rounded-2xl" />
     </div>
+    <div></div>
   </section>
 </template>

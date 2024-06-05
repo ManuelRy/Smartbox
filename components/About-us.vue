@@ -25,13 +25,17 @@
       <div class="">
         <h3 class="text-center font-bold mb-12 text-2xl font-mono">
           Our digital lockers are accessible 24/7 at convenient locations. Pick
-          up,drop off and store your iterms when and where it suits you.
+          up, drop off and store your items when and where it suits you.
         </h3>
       </div>
       <div
         class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
       >
-        <div class="max-w-sm rounded-md">
+        <div
+          class="max-w-sm rounded-md"
+          data-aos="fade-in-up"
+          data-aos-delay="200"
+        >
           <img
             src="/img/about/convinient.png"
             alt=""
@@ -41,11 +45,19 @@
             Convenient
           </h2>
         </div>
-        <div class="max-w-sm rounded-md">
+        <div
+          class="max-w-sm rounded-md"
+          data-aos="fade-in-up"
+          data-aos-delay="400"
+        >
           <img src="/img/about/secure.png" alt="" class="w-60 h-60 mx-auto" />
           <h2 class="text-white text-center text-4xl font-bold mt-4">Secure</h2>
         </div>
-        <div class="max-w-sm rounded-md">
+        <div
+          class="max-w-sm rounded-md"
+          data-aos="fade-in-up"
+          data-aos-delay="600"
+        >
           <img src="/img/about/24.png" alt="" class="w-60 h-60 mx-auto" />
           <h2 class="text-white text-center text-4xl font-bold mt-4">24/7</h2>
         </div>
