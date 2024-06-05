@@ -18,3 +18,7 @@ const scrollTop = () => {
         </button>
     </NuxtLink>
 </template>
+
+<style>
+
+</style>

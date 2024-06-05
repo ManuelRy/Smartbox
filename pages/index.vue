@@ -24,3 +24,4 @@ onMounted(() => {
     <Footer />
   </div>
 </template>
+
