@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container bg-orange-300 mx-20 my-12 px-5 md:px-4"
+    class="container bg-orange-300 my-12 px-5 md:px-4"
     data-aos="fade-up"
   >
     <section class="mb-12">
