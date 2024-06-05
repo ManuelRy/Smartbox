@@ -63,7 +63,7 @@
                 >
               </li>
               <li>
-                <a href="https://discord.gg/4eeurUVvTy" class="hover:underline"
+                <a href="/terms" class="hover:underline"
                   >Terms & Conditions</a
                 >
               </li>
