@@ -1,11 +1,11 @@
 <template>
   <div
-    class="container bg-orange-300 my-12 px-5 md:px-4"
+    class="container bg-orange-300 mx-20 my-12 px-5 md:px-4"
     data-aos="fade-up"
   >
     <section class="mb-12">
       <div class="flex justify-center lg:mb-8">
-        <div class="text-center md:max-w-xl lg:max-w-3xl">
+        <div class="text-center md:max-w-xl lg:max-full">
           <h2
             class="text-4xl pt-5 tracking-tight font-extrabold text-gray-900 dark:text-white text-center"
           >
