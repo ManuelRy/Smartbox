@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-orange-300 dark:bg-gray-900" data-aos="fade-up">
+  <section class="bg-orange-200 dark:bg-gray-900" data-aos="fade-up">
     <div class="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="max-w-screen lg:mb-16">
         <h1
@@ -9,7 +9,7 @@
         </h1>
       </div>
       <div class="grid gap-14 md:grid-cols-3 md:gap-5">
-        <div class="rounded-xl bg-white p-6 text-center shadow-xl">
+        <div class="rounded-xl bg-orange-300 p-6 text-center shadow-xl">
           <div
             class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
           >
@@ -26,12 +26,12 @@
             </svg>
           </div>
           <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">STORAGE</h1>
-          <p class="px-4 text-gray-500">
+          <p class="px-4 text-black">
             SmartBox provides a self-storage service. Hours and daily storage
             for your belongings.
           </p>
         </div>
-        <div class="rounded-xl bg-white p-6 text-center shadow-xl">
+        <div class="rounded-xl bg-orange-300 p-6 text-center shadow-xl">
           <div
             class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
           >
@@ -48,12 +48,12 @@
             </svg>
           </div>
           <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">EVENTS</h1>
-          <p class="px-4 text-gray-500">
+          <p class="px-4 text-black">
             SmartBox provides a self-storage service at events, meetings,
             concerts, and many more with full support from our teams.
           </p>
         </div>
-        <div class="rounded-xl bg-white p-6 text-center shadow-xl">
+        <div class="rounded-xl bg-orange-300 p-6 text-center shadow-xl">
           <div
             class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
           >
@@ -88,7 +88,7 @@
           <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">
             DELIVERY
           </h1>
-          <p class="px-4 text-gray-500">
+          <p class="px-4 text-black">
             SmartBox provides Luggage and parcel delivery Within the same day.
             SmartBox delivery to airports, hotels, and anywhere in Phnom Penh.
           </p>
