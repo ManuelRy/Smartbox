@@ -11,6 +11,10 @@
             <img src="/img/logo.png" class="h-16" alt="SmartBox Logo" />
           </a>
           <p class="ml-12 mb-6">
+            <Icon name="fa6-solid:envelope" />
+            hello.wearesmartbox@gmail.com
+          </p>
+          <p class="ml-12 mb-6">
             <Icon name="fa6-solid:location-dot" />
             Russian Federation Blvd (110), Phnom Penh 120404
           </p>
