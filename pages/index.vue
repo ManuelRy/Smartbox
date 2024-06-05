@@ -18,8 +18,8 @@ onMounted(() => {
     <Hero />
     <About id="About" />
     <Services id="Service" />
-    <Contact id="Contact" />
     <About-us />
+    <Contact id="Contact" />
     <Scroller/>
     <Footer />
   </div>
