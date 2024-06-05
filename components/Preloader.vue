@@ -1,7 +1,7 @@
 <template>
-  <div v-if="isLoading" class=" preloader relative flex justify-center items-center bg-orange-300">
+  <div v-if="isLoading" class=" preloader relative flex justify-center items-center bg-white">
     <div
-      class="absolute animate-spin rounded-full h-80 w-80 border-t-4 border-b-4 border-blue-700"
+      class="absolute animate-spin rounded-full h-80 w-80 border-t-4 border-b-4 border-orange-500"
     ></div>
     <img
       :src="'/img/logo.png'"

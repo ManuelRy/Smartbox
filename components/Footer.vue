@@ -95,7 +95,7 @@
         </div>
       </div>
       <hr
-        class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+        class="my-6 border-black sm:mx-auto dark:border-white lg:my-8"
       />
       <div class="sm:flex sm:items-center sm:justify-between">
         <span class="text-sm text-black sm:text-center dark:text-gray-400"
