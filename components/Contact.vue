@@ -1,10 +1,13 @@
 <template>
-  <div class="container bg-orange-300 my-12 px-2 md:px-4" data-aos="fade-up">
-    <section class="mb-32">
+  <div
+    class="container bg-orange-300 mx-20 my-12 px-5 md:px-4"
+    data-aos="fade-up"
+  >
+    <section class="mb-12">
       <div class="flex justify-center lg:mb-8">
         <div class="text-center md:max-w-xl lg:max-w-3xl">
           <h2
-            class=" text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center"
+            class="text-4xl pt-5 tracking-tight font-extrabold text-gray-900 dark:text-white text-center"
           >
             Contact Us
           </h2>
@@ -14,7 +17,7 @@
         <form
           class="w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6"
         >
-          <div class=" w-full">
+          <div class="w-full">
             <label
               class="block font-medium mb-[2px] text-teal-700"
               htmlFor="exampleInput90"
@@ -29,7 +32,7 @@
             />
           </div>
 
-          <div class=" w-full">
+          <div class="w-full">
             <label
               class="block font-medium mb-[2px] text-teal-700"
               htmlFor="exampleInput90"
@@ -44,7 +47,7 @@
             />
           </div>
 
-          <div class=" w-full">
+          <div class="w-full">
             <label
               class="block font-medium mb-[2px] text-teal-700"
               htmlFor="exampleInput90"

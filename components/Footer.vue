@@ -22,7 +22,7 @@
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
             <h2
-              class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
+              class="mb-6 text-md font-semibold text-orange-400 uppercase dark:text-white"
             >
               Service
             </h2>
@@ -46,7 +46,7 @@
           </div>
           <div>
             <h2
-              class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
+              class="mb-6 text-md font-semibold text-orange-400 uppercase dark:text-white"
             >
               About Us
             </h2>
@@ -67,21 +67,23 @@
           </div>
           <div>
             <h2
-              class="mb-6 font-semibold text-white uppercase dark:text-white"
+              class="mb-6 text-md font-semibold text-orange-400 uppercase dark:text-white"
             >
               Contact Us
             </h2>
-            <ul class="text-black dark:text-gray-400 font-medium">
+            <ul
+              class="text-black dark:text-gray-400 font-medium flex space-x-4"
+            >
               <li class="">
                 <a
                   href="https://www.facebook.com/profile.php?id=61556244512123&mibextid=LQQJ4d"
-                  ><Icon name="fa6-brands:square-facebook"
+                  ><Icon name="fa6-brands:square-facebook" class="w-8 h-8"
                 /></a>
               </li>
               <li class="">
                 <a
                   href="https://www.instagram.com/smartbox_cambodia?igsh=MWtzZzhraHh1YjRqbQ=="
-                  ><Icon name="fa6-brands:instagram"
+                  ><Icon name="fa6-brands:instagram" class="w-8 h-8"
                 /></a>
               </li>
             </ul>
