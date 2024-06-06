@@ -19,6 +19,7 @@ onMounted(() => {
     <About-us />
     <!-- <About id="About" /> -->
     <Services id="Service" />
+    <About-us />
     <Contact id="Contact" />
     <Scroller/>
     <Footer />
