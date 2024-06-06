@@ -18,10 +18,7 @@ onMounted(() => {
     <Hero />
     <About-us />
     <Services id="Service" />
-<<<<<<< HEAD
     <About-us />
-=======
->>>>>>> vathanak
     <Contact id="Contact" />
     <Scroller/>
     <Footer />
