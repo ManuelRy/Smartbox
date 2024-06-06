@@ -33,7 +33,7 @@
       >
         <div
           class="max-w-sm rounded-md"
-          data-aos="fade-in-up"
+          data-aos="fade-right"
           data-aos-delay="200"
         >
           <img
@@ -47,7 +47,7 @@
         </div>
         <div
           class="max-w-sm rounded-md"
-          data-aos="fade-in-up"
+          data-aos="fade-up"
           data-aos-delay="400"
         >
           <img src="/img/about/secure.png" alt="" class="w-60 h-60 mx-auto" />
@@ -55,7 +55,7 @@
         </div>
         <div
           class="max-w-sm rounded-md"
-          data-aos="fade-in-up"
+          data-aos="fade-left"
           data-aos-delay="600"
         >
           <img src="/img/about/24.png" alt="" class="w-60 h-60 mx-auto" />

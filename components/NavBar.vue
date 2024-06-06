@@ -6,7 +6,7 @@
       <div
         class="max-w-screen-xl flex flex-wrap justify-between mx-auto p-4"
       >
-        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="/img/logo.png"
             class="animate__animated animate__bounce h-16"
@@ -57,7 +57,7 @@
           >
             <li>
               <a
-                href="#"
+                href="/"
                 class="block py-2 px-3 text-lg text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 scroll-smooth focus:scroll-auto"
                 aria-current="page"
                 >HOME</a

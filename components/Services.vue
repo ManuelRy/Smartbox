@@ -9,7 +9,11 @@
         </h1>
       </div>
       <div class="grid gap-14 md:grid-cols-3 md:gap-5">
-        <div class="rounded-xl bg-orange-300 p-6 text-center shadow-xl">
+        <div
+          class="rounded-xl bg-orange-300 p-6 text-center shadow-xl"
+          data-aos="zoom-in-up"
+          data-aos-delay="200"
+        >
           <div
             class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
           >
@@ -17,21 +21,54 @@
               xmlns="http://www.w3.org/2000/svg"
               width="50"
               height="50"
-              viewBox="0 0 256 256"
+              viewBox="0 0 512 512"
             >
               <path
                 fill="white"
-                d="M208 32H48a16 16 0 0 0-16 16v176a8 8 0 0 0 16 0v-16h72v16a8 8 0 0 0 16 0v-16h72v16a8 8 0 0 0 16 0V48a16 16 0 0 0-16-16M96 112H56a8 8 0 0 1 0-16h40a8 8 0 0 1 0 16m0-32H56a8 8 0 0 1 0-16h40a8 8 0 0 1 0 16m40 104a8 8 0 0 1-16 0V56a8 8 0 0 1 16 0Zm64-72h-40a8 8 0 0 1 0-16h40a8 8 0 0 1 0 16m0-32h-40a8 8 0 0 1 0-16h40a8 8 0 0 1 0 16"
+                d="M25 73v414h142V73zm160 0v414h142V73zm160 0v414h142V73zM39 112h18v23h78v-23h18v41H39zm160 0h18v23h78v-23h18v41H199zm160 0h18v23h78v-23h18v41H359zM39 176h18v23h78v-23h18v41H39zm160 0h18v23h78v-23h18v41H199zm160 0h18v23h78v-23h18v41H359zM64 279c13.7 0 25 11.3 25 25s-11.3 25-25 25s-25-11.3-25-25s11.3-25 25-25m160 0c13.7 0 25 11.3 25 25s-11.3 25-25 25s-25-11.3-25-25s11.3-25 25-25m160 0c13.7 0 25 11.3 25 25s-11.3 25-25 25s-25-11.3-25-25s11.3-25 25-25M64 297c-3.97 0-7 3-7 7s3.03 7 7 7s7-3 7-7s-3.03-7-7-7m160 0c-4 0-7 3-7 7s3 7 7 7s7-3 7-7s-3-7-7-7m160 0c-4 0-7 3-7 7s3 7 7 7s7-3 7-7s-3-7-7-7M48 407h96v18H48zm160 0h96v18h-96zm160 0h96v18h-96zM48 441h96v18H48zm160 0h96v18h-96zm160 0h96v18h-96z"
               />
             </svg>
           </div>
           <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">STORAGE</h1>
           <p class="px-4 text-black">
-            SmartBox provides a self-storage service. Hours and daily storage
-            for your belongings.
+            SmartBox provides a self-storage service. Flexible hours and daily storage options ensure the safety of your belongings.
           </p>
+          <div class="btn mt-6">
+            <a
+              href="#_"
+              class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-white transition duration-300 ease-out bg-orange-500 rounded-lg shadow-md group"
+            >
+              <span
+                class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease"
+              >
+                <svg
+                  class="w-6 h-6"
+                  fill="orange"
+                  stroke="black"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  ></path>
+                </svg>
+              </span>
+              <span
+                class="absolute flex items-center justify-center w-full h-full text-white-500 transition-all duration-300 transform group-hover:translate-x-full ease"
+                >More Detail</span
+              >
+              <span class="relative invisible">Button Text</span>
+            </a>
+          </div>
         </div>
-        <div class="rounded-xl bg-orange-300 p-6 text-center shadow-xl">
+        <div
+          class="rounded-xl bg-orange-300 p-6 text-center shadow-xl"
+          data-aos="zoom-in-up"
+          data-aos-delay="400"
+        >
           <div
             class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
           >
@@ -52,8 +89,42 @@
             SmartBox provides a self-storage service at events, meetings,
             concerts, and many more with full support from our teams.
           </p>
+          <div class="btn mt-6">
+            <a
+              href="#_"
+              class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-white transition duration-300 ease-out bg-orange-500 rounded-lg shadow-md group"
+            >
+              <span
+                class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease"
+              >
+                <svg
+                  class="w-6 h-6"
+                  fill="orange"
+                  stroke="black"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  ></path>
+                </svg>
+              </span>
+              <span
+                class="absolute flex items-center justify-center w-full h-full text-white-500 transition-all duration-300 transform group-hover:translate-x-full ease"
+                >More Detail</span
+              >
+              <span class="relative invisible">Button Text</span>
+            </a>
+          </div>
         </div>
-        <div class="rounded-xl bg-orange-300 p-6 text-center shadow-xl">
+        <div
+          class="rounded-xl bg-orange-300 p-6 text-center shadow-xl"
+          data-aos="zoom-in-up"
+          data-aos-delay="600"
+        >
           <div
             class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
           >
@@ -89,9 +160,39 @@
             DELIVERY
           </h1>
           <p class="px-4 text-black">
-            SmartBox provides Luggage and parcel delivery Within the same day.
-            SmartBox delivery to airports, hotels, and anywhere in Phnom Penh.
+            SmartBox provides Luggage and parcel delivery Within the same day to
+            airports, hotels, and anywhere in Phnom Penh.
           </p>
+          <div class="btn mt-6">
+            <a
+              href="#_"
+              class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-white transition duration-300 ease-out bg-orange-500 rounded-lg shadow-md group"
+            >
+              <span
+                class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease"
+              >
+                <svg
+                  class="w-6 h-6"
+                  fill="orange"
+                  stroke="black"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  ></path>
+                </svg>
+              </span>
+              <span
+                class="absolute flex items-center justify-center w-full h-full text-white-500 transition-all duration-300 transform group-hover:translate-x-full ease"
+                >More Detail</span
+              >
+              <span class="relative invisible">Button Text</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
