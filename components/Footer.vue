@@ -11,6 +11,10 @@
             <img src="/img/logo.png" class="h-16" alt="SmartBox Logo" />
           </a>
           <p class="ml-12 mb-6">
+            <Icon name="fa6-solid:envelope" />
+            hello.wearesmartbox@gmail.com
+          </p>
+          <p class="ml-12 mb-6">
             <Icon name="fa6-solid:location-dot" />
             Russian Federation Blvd (110), Phnom Penh 120404
           </p>
@@ -28,17 +32,17 @@
             </h2>
             <ul class="text-black dark:text-gray-400 font-medium">
               <li class="mb-4">
-                <a href="https://flowbite.com/" class="hover:underline"
+                <a href="/storage" class="hover:underline"
                   >Storage</a
                 >
               </li>
               <li class="mb-4">
-                <a href="https://tailwindcss.com/" class="hover:underline"
+                <a href="/delivery" class="hover:underline"
                   >Delivery</a
                 >
               </li>
               <li class="mb-4">
-                <a href="https://tailwindcss.com/" class="hover:underline"
+                <a href="/events" class="hover:underline"
                   >Events</a
                 >
               </li>
@@ -59,7 +63,7 @@
                 >
               </li>
               <li>
-                <a href="https://discord.gg/4eeurUVvTy" class="hover:underline"
+                <a href="/terms" class="hover:underline"
                   >Terms & Conditions</a
                 >
               </li>

@@ -1,293 +1,197 @@
 <template>
-  <section class=" dark:bg-gray-900" >
-    <div class="px-4 mx-auto container max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-up">
+  <section class="bg-orange-300 dark:bg-gray-900" data-aos="fade-up">
+    <div class="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="max-w-screen lg:mb-16">
-        <h2
-          class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center"
+        <h1
+          class="mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
         >
           Our Services
-        </h2>
+        </h1>
       </div>
-      <div
-        class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
-      >
+      <div class="grid gap-14 md:grid-cols-3 md:gap-5">
         <div
-          class="w-full max-w-sm bg-orange-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          class="rounded-xl bg-orange-300 p-6 text-center shadow-xl"
+          data-aos="zoom-in-up"
+          data-aos-delay="200"
         >
-          <a href="#">
-            <img
-              class="p-8 rounded-t-lg"
-              src="/img/svgs/delivery.svg"
-              alt="product image"
-            />
-          </a>
-          <div class="px-5 pb-5">
-            <a href="#">
-              <h5
-                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
-              >
-                Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
-              </h5>
-            </a>
-            <div class="flex items-center mt-2.5 mb-5">
-              <div class="flex items-center space-x-1 rtl:space-x-reverse">
-                <svg
-                  class="w-4 h-4 text-yellow-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-                <svg
-                  class="w-4 h-4 text-yellow-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-                <svg
-                  class="w-4 h-4 text-yellow-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-                <svg
-                  class="w-4 h-4 text-yellow-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-                <svg
-                  class="w-4 h-4 text-gray-200 dark:text-gray-600"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-              </div>
+          <div
+            class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="white"
+                d="M25 73v414h142V73zm160 0v414h142V73zm160 0v414h142V73zM39 112h18v23h78v-23h18v41H39zm160 0h18v23h78v-23h18v41H199zm160 0h18v23h78v-23h18v41H359zM39 176h18v23h78v-23h18v41H39zm160 0h18v23h78v-23h18v41H199zm160 0h18v23h78v-23h18v41H359zM64 279c13.7 0 25 11.3 25 25s-11.3 25-25 25s-25-11.3-25-25s11.3-25 25-25m160 0c13.7 0 25 11.3 25 25s-11.3 25-25 25s-25-11.3-25-25s11.3-25 25-25m160 0c13.7 0 25 11.3 25 25s-11.3 25-25 25s-25-11.3-25-25s11.3-25 25-25M64 297c-3.97 0-7 3-7 7s3.03 7 7 7s7-3 7-7s-3.03-7-7-7m160 0c-4 0-7 3-7 7s3 7 7 7s7-3 7-7s-3-7-7-7m160 0c-4 0-7 3-7 7s3 7 7 7s7-3 7-7s-3-7-7-7M48 407h96v18H48zm160 0h96v18h-96zm160 0h96v18h-96zM48 441h96v18H48zm160 0h96v18h-96zm160 0h96v18h-96z"
+              />
+            </svg>
+          </div>
+          <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">STORAGE</h1>
+          <p class="px-4 text-black">
+            SmartBox provides a self-storage service. Flexible hours and daily storage options ensure the safety of your belongings.
+          </p>
+          <div class="btn mt-6">
+            <a
+              href="/storage"
+              class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-white transition duration-300 ease-out bg-orange-500 rounded-lg shadow-md group"
+            >
               <span
-                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3"
-                >5.0</span
+                class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease"
               >
-            </div>
-            <div class="flex items-center justify-between">
-              <span class="text-3xl font-bold text-gray-900 dark:text-white"
-                >$599</span
+                <svg
+                  class="w-6 h-6"
+                  fill="orange"
+                  stroke="black"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  ></path>
+                </svg>
+              </span>
+              <span
+                class="absolute flex items-center justify-center w-full h-full text-white-500 transition-all duration-300 transform group-hover:translate-x-full ease"
+                >More Detail</span
               >
-              <a
-                href="#"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >Add to cart</a
-              >
-            </div>
+              <span class="relative invisible">Button Text</span>
+            </a>
           </div>
         </div>
         <div
-          class="w-full max-w-sm bg-orange-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          class="rounded-xl bg-orange-300 p-6 text-center shadow-xl"
+          data-aos="zoom-in-up"
+          data-aos-delay="400"
         >
-          <a href="#">
-            <img
-              class="p-8 rounded-t-lg"
-              src="/img/svgs/delivery.svg"
-              alt="product image"
-            />
-          </a>
-          <div class="px-5 pb-5">
-            <a href="#">
-              <h5
-                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
-              >
-                Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
-              </h5>
-            </a>
-            <div class="flex items-center mt-2.5 mb-5">
-              <div class="flex items-center space-x-1 rtl:space-x-reverse">
-                <svg
-                  class="w-4 h-4 text-yellow-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-                <svg
-                  class="w-4 h-4 text-yellow-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-                <svg
-                  class="w-4 h-4 text-yellow-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-                <svg
-                  class="w-4 h-4 text-yellow-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-                <svg
-                  class="w-4 h-4 text-gray-200 dark:text-gray-600"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-              </div>
+          <div
+            class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="46"
+              height="50"
+              viewBox="0 0 448 512"
+            >
+              <path
+                fill="white"
+                d="M96 32v32H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48h-48V32c0-17.7-14.3-32-32-32s-32 14.3-32 32v32H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32m352 160H0v272c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48z"
+              />
+            </svg>
+          </div>
+          <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">EVENTS</h1>
+          <p class="px-4 text-black">
+            SmartBox provides a self-storage service at events, meetings,
+            concerts, and many more with full support from our teams.
+          </p>
+          <div class="btn mt-6">
+            <a
+              href="/events"
+              class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-white transition duration-300 ease-out bg-orange-500 rounded-lg shadow-md group"
+            >
               <span
-                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3"
-                >5.0</span
+                class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease"
               >
-            </div>
-            <div class="flex items-center justify-between">
-              <span class="text-3xl font-bold text-gray-900 dark:text-white"
-                >$599</span
+                <svg
+                  class="w-6 h-6"
+                  fill="orange"
+                  stroke="black"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  ></path>
+                </svg>
+              </span>
+              <span
+                class="absolute flex items-center justify-center w-full h-full text-white-500 transition-all duration-300 transform group-hover:translate-x-full ease"
+                >More Detail</span
               >
-              <a
-                href="#"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >Add to cart</a
-              >
-            </div>
+              <span class="relative invisible">Button Text</span>
+            </a>
           </div>
         </div>
         <div
-          class="w-full max-w-sm bg-orange-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          class="rounded-xl bg-orange-300 p-6 text-center shadow-xl"
+          data-aos="zoom-in-up"
+          data-aos-delay="600"
         >
-          <a href="#">
-            <img
-              class="p-8 h-60 w-full rounded-t-lg"
-              src="/img/svgs/delivery.svg"
-              alt="product image"
-            />
-          </a>
-          <div class="px-5 pb-5">
-            <a href="#">
-              <h5
-                class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
-              >
-                Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
-              </h5>
-            </a>
-            <div class="flex items-center mt-2.5 mb-5">
-              <div class="flex items-center space-x-1 rtl:space-x-reverse">
-                <svg
-                  class="w-4 h-4 text-yellow-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-                <svg
-                  class="w-4 h-4 text-yellow-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-                <svg
-                  class="w-4 h-4 text-yellow-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-                <svg
-                  class="w-4 h-4 text-yellow-300"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-                <svg
-                  class="w-4 h-4 text-gray-200 dark:text-gray-600"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 22 20"
-                >
-                  <path
-                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
-                  />
-                </svg>
-              </div>
+          <div
+            class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              viewBox="0 0 48 48"
+            >
+              <defs>
+                <mask id="ipTDelivery0">
+                  <g
+                    fill="none"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="4"
+                  >
+                    <path
+                      d="m20 33l6 2s15-3 17-3s2 2 0 4s-9 8-15 8s-10-3-14-3H4"
+                    />
+                    <path
+                      d="M4 29c2-2 6-5 10-5s13.5 4 15 6s-3 5-3 5M16 18v-8a2 2 0 0 1 2-2h24a2 2 0 0 1 2 2v16"
+                    />
+                    <path fill="#555" d="M25 8h10v9H25z" />
+                  </g>
+                </mask>
+              </defs>
+              <path fill="white" d="M0 0h48v48H0z" mask="url(#ipTDelivery0)" />
+            </svg>
+          </div>
+          <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">
+            DELIVERY
+          </h1>
+          <p class="px-4 text-black">
+            SmartBox provides Luggage and parcel delivery Within the same day to
+            airports, hotels, and anywhere in Phnom Penh.
+          </p>
+          <div class="btn mt-6">
+            <a
+              href="/delivery"
+              class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-white transition duration-300 ease-out bg-orange-500 rounded-lg shadow-md group"
+            >
               <span
-                class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3"
-                >5.0</span
+                class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease"
               >
-            </div>
-            <div class="flex items-center justify-between">
-              <span class="text-3xl font-bold text-gray-900 dark:text-white"
-                >$599</span
+                <svg
+                  class="w-6 h-6"
+                  fill="orange"
+                  stroke="black"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  ></path>
+                </svg>
+              </span>
+              <span
+                class="absolute flex items-center justify-center w-full h-full text-white-500 transition-all duration-300 transform group-hover:translate-x-full ease"
+                >More Detail</span
               >
-              <a
-                href="#"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >Add to cart</a
-              >
-            </div>
+              <span class="relative invisible">Button Text</span>
+            </a>
           </div>
         </div>
       </div>
