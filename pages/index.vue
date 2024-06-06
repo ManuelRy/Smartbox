@@ -17,7 +17,6 @@ onMounted(() => {
     <NavBar style="z-index: 1050 !important; position:relative;"/>
     <Hero />
     <About-us />
-    <!-- <About id="About" /> -->
     <Services id="Service" />
     <Contact id="Contact" />
     <Scroller/>
