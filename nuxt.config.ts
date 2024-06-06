@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light',
   },
-  modules: ["@nuxt/ui", "@nuxt/image", "nuxt-aos", "nuxt-icon"],
+  modules: ["@nuxt/ui", "@nuxt/image", "nuxt-aos", "nuxt-icon", "@nuxtjs/google-fonts"],
   css: [
     '~/assets/css/main.css',
     'animate.css/animate.min.css',
@@ -20,4 +20,3 @@ export default defineNuxtConfig({
   //   dir: 'assets/img'
   // }
 })
-
