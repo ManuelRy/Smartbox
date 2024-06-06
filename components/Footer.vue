@@ -32,17 +32,17 @@
             </h2>
             <ul class="text-black dark:text-gray-400 font-medium">
               <li class="mb-4">
-                <a href="https://flowbite.com/" class="hover:underline"
+                <a href="/storage" class="hover:underline"
                   >Storage</a
                 >
               </li>
               <li class="mb-4">
-                <a href="https://tailwindcss.com/" class="hover:underline"
+                <a href="/delivery" class="hover:underline"
                   >Delivery</a
                 >
               </li>
               <li class="mb-4">
-                <a href="https://tailwindcss.com/" class="hover:underline"
+                <a href="/events" class="hover:underline"
                   >Events</a
                 >
               </li>

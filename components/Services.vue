@@ -35,7 +35,7 @@
           </p>
           <div class="btn mt-6">
             <a
-              href="#_"
+              href="/storage"
               class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-white transition duration-300 ease-out bg-orange-500 rounded-lg shadow-md group"
             >
               <span
@@ -91,7 +91,7 @@
           </p>
           <div class="btn mt-6">
             <a
-              href="#_"
+              href="/events"
               class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-white transition duration-300 ease-out bg-orange-500 rounded-lg shadow-md group"
             >
               <span
@@ -165,7 +165,7 @@
           </p>
           <div class="btn mt-6">
             <a
-              href="#_"
+              href="/delivery"
               class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-white transition duration-300 ease-out bg-orange-500 rounded-lg shadow-md group"
             >
               <span

@@ -1,8 +1,8 @@
 <template>
   <section class="bg-orange-200 dark:bg-gray-900">
-    <div class="mx-48">
+    <div class="mx-48 pt-10">
       <h1
-        class="mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
+        class=" p-4 mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
       >
         Terms and Conditions
       </h1>
