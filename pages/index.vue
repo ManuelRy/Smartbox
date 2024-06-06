@@ -13,6 +13,7 @@ onMounted(() => {
 
 <template>
   <div>
+    <p>Hello there</p>
     <Preloader />
     <NavBar style="z-index: 1050 !important; position:relative;"/>
     <Hero />
