@@ -18,19 +18,19 @@
     <div class="btn flex justify-center align-center">
       <button
         type="button"
-        class="focus:outline-none text-white bg-orange-500 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900"
+        class="focus:outline-none text-white bg-orange-500 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
       >
         To Store
       </button>
       <button
         type="button"
-        class="focus:outline-none text-white bg-orange-300 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900"
+        class="focus:outline-none text-white bg-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
       >
         To Take Out
       </button>
     </div>
     <div class="to-store">
-        
+      <div class="grid grid-cols-5 gap-3"></div>
     </div>
   </section>
 </template>
