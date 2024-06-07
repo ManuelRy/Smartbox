@@ -20,10 +20,7 @@
         type="button"
         class="focus:outline-none text-white font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
         :class="{ 'bg-orange-500': showStore, 'bg-orange-300': !showStore }"
-        @click="
-          showStore = true;
-          showTakeout = false;
-        "
+        @click="handleClick(true)"
       >
         To Store
       </button>
@@ -31,10 +28,7 @@
         type="button"
         class="focus:outline-none text-white font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
         :class="{ 'bg-orange-500': showTakeout, 'bg-orange-300': !showTakeout }"
-        @click="
-          showStore = false;
-          showTakeout = true;
-        "
+        @click="handleClick(false)"
       >
         To Take Out
       </button>
@@ -52,7 +46,7 @@
                 class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
               >
                 <img
-                  src="/img/storage/qr.png"
+                  src="/img/process/qr.png"
                   alt=""
                   width="75"
                   height="75"
@@ -132,7 +126,7 @@
                 class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
               >
                 <img
-                  src="/img/storage/fill.png"
+                  src="/img/process/fill.png"
                   width="75"
                   height="75"
                   srcset=""
@@ -154,7 +148,7 @@
                 class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
               >
                 <img
-                  src="/img/storage/pin.png"
+                  src="/img/process/pin.png"
                   width="60"
                   height="60"
                   srcset=""
@@ -176,7 +170,7 @@
                 class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
               >
                 <img
-                  src="/img/storage/done.png"
+                  src="/img/process/done.png"
                   width="60"
                   height="60"
                   alt=""
@@ -207,7 +201,7 @@
                 class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
               >
                 <img
-                  src="/img/storage/qr.png"
+                  src="/img/process/qr.png"
                   alt=""
                   width="75"
                   height="75"
@@ -230,7 +224,7 @@
                 class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
               >
                 <img
-                  src="/img/storage/pin.png"
+                  src="/img/process/pin.png"
                   alt=""
                   width="75"
                   height="75"
@@ -253,7 +247,7 @@
                 class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
               >
                 <img
-                  src="/img/storage/done2.png"
+                  src="/img/process/done2.png"
                   alt=""
                   width="75"
                   height="75"
@@ -275,12 +269,27 @@
 </template>
 
 <script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default {
   data() {
     return {
       showStore: true,
       showTakeout: false,
     };
+  },
+  methods: {
+    handleClick(isStore) {
+      this.showStore = isStore;
+      this.showTakeout = !isStore;
+      this.$nextTick(() => {
+        AOS.refresh();
+      });
+    },
+  },
+  mounted() {
+    AOS.init();
   },
 };
 </script>
