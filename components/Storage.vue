@@ -18,18 +18,28 @@
     <div class="btn flex justify-center align-center">
       <button
         type="button"
-        class="focus:outline-none text-white bg-orange-500 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
+        class="focus:outline-none text-white font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
+        :class="{ 'bg-orange-500': showStore, 'bg-orange-300': !showStore }"
+        @click="
+          showStore = true;
+          showTakeout = false;
+        "
       >
         To Store
       </button>
       <button
         type="button"
-        class="focus:outline-none text-white bg-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
+        class="focus:outline-none text-white font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
+        :class="{ 'bg-orange-500': showTakeout, 'bg-orange-300': !showTakeout }"
+        @click="
+          showStore = false;
+          showTakeout = true;
+        "
       >
         To Take Out
       </button>
     </div>
-    <div class="to-store">
+    <div v-if="showStore" class="to-store">
       <section class="bg-orange-200 dark:bg-gray-900" data-aos="fade-up">
         <div class="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="grid gap-14 md:grid-cols-5 md:gap-2">
@@ -59,7 +69,7 @@
             <div
               class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
-              data-aos-delay="200"
+              data-aos-delay="400"
             >
               <div
                 class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
@@ -113,11 +123,10 @@
                 Choose Package Size
               </h1>
             </div>
-
             <div
               class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
-              data-aos-delay="200"
+              data-aos-delay="600"
             >
               <div
                 class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
@@ -133,13 +142,13 @@
                 Step 3
               </h1>
               <h1 class="text-darken mb-3 text-xl font-medium lg:px-6">
-                Fill Information
+                Fill in your information
               </h1>
             </div>
             <div
               class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
-              data-aos-delay="200"
+              data-aos-delay="800"
             >
               <div
                 class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
@@ -161,7 +170,7 @@
             <div
               class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
-              data-aos-delay="200"
+              data-aos-delay="1000"
             >
               <div
                 class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
@@ -185,7 +194,7 @@
         </div>
       </section>
     </div>
-    <div class="to-takeout flex items-center justify-center">
+    <div v-if="showTakeout" class="to-takeout flex items-center justify-center">
       <section class="bg-orange-200 dark:bg-gray-900 pt-0" data-aos="fade-up">
         <div class="py-2 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="grid gap-14 md:grid-cols-5 md:gap-2">
@@ -212,35 +221,10 @@
                 Scan QR Code on our locker
               </h1>
             </div>
-
             <div
               class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
-              data-aos-delay="200"
-            >
-              <div
-                class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
-              >
-                <img
-                  src="/img/storage/qr.png"
-                  alt=""
-                  width="75"
-                  height="75"
-                  srcset=""
-                />
-              </div>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-10">
-                Step 2
-              </h1>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-6">
-                Collect your items
-              </h1>
-            </div>
-
-            <div
-              class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
-              data-aos="zoom-in-up"
-              data-aos-delay="200"
+              data-aos-delay="400"
             >
               <div
                 class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
@@ -254,10 +238,33 @@
                 />
               </div>
               <h1 class="text-darken mb-3 text-xl font-medium lg:px-10">
+                Step 2
+              </h1>
+              <h1 class="text-darken mb-3 text-xl font-medium lg:px-6">
+                Input your PIN
+              </h1>
+            </div>
+            <div
+              class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              data-aos="zoom-in-up"
+              data-aos-delay="600"
+            >
+              <div
+                class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
+              >
+                <img
+                  src="/img/storage/done2.png"
+                  alt=""
+                  width="75"
+                  height="75"
+                  srcset=""
+                />
+              </div>
+              <h1 class="text-darken mb-3 text-xl font-medium lg:px-10">
                 Step 3
               </h1>
               <h1 class="text-darken mb-3 text-xl font-medium lg:px-6">
-                Close and Lock the door
+                Take out your belongings
               </h1>
             </div>
           </div>
@@ -266,3 +273,14 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      showStore: true,
+      showTakeout: false,
+    };
+  },
+};
+</script>
