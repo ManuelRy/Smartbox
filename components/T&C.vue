@@ -2,7 +2,7 @@
   <section class="bg-orange-200 dark:bg-gray-900">
     <div class="mx-48 pt-10">
       <h1
-        class=" p-4 mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
+        class="p-4 mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
       >
         Terms and Conditions
       </h1>
@@ -13,8 +13,184 @@
       </p>
     </div>
     <div class="my-12 flex justify-center items-center">
-      <img src="/img/T&C.png" alt="fobidden-items" class="rounded-2xl" />
+      <img src="/img/T&C.png" alt="forbidden-items" class="rounded-2xl" />
     </div>
-    <div></div>
+    <div
+      class="terms-conditions my-12 mx-48 flex rounded-md border-white bg-white p-6 text-xl"
+    >
+      <ul class="list-image-[url(/img/svgs/arrow-right.svg)] list-inside">
+        <li>
+          The "Terms and Conditions for Customers" are shown below; please read
+          them carefully. The customer confirms that it has read, understood,
+          confirmed, accepted, and agreed to abide by the terms and administer
+          this conversion each time you use the package locker service (service)
+          provided by the SmartBox web application.
+        </li>
+        <li>
+          The customer agrees that it is the customer’s responsibility to
+          regularly refer to the terms and that any amendments, whether or not
+          reviewed by the customer, will constitute the customer’s agreement and
+          acceptance of the terms and conditions for this modification.
+          <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+            <li>
+              To create an account, customers must enter their name and phone
+              number. The customer will receive an OTP code to verify their
+              phone number. Following the completion of the information,
+              SmartBox will provide the client access to a unique account
+              (Account), through which they may track and manage their
+              transaction process.
+            </li>
+            <li>
+              Users who register for accounts on SmartBox's web application are
+              legally responsible for all the information they provide. In any
+              case, SmartBox maintains the right to check the data the client
+              has submitted. SmartBox will not handle the customer’s complaint
+              if the customer incorrectly declares the information that SmartBox
+              required when registering.
+            </li>
+            <li>
+              With regard to SmartBox service lockers, the customer selects the
+              right locker size based on the dimensions of the products being
+              sent.
+            </li>
+            <li>
+              If there is an issue involving the loss of a user’s package,
+              SmartBox will report the results to the person who requested the
+              inspection within 48 hours after checking the camera. If the error
+              in the package loss originates from SmartBox, the company will be
+              responsible for the package.
+            </li>
+            <p>
+              <b>NOTE:</b> SmartBox is only responsible
+              <b>for packages that are less than 50 USD.</b>
+            </p>
+            <li>
+              SmartBox is not responsible for
+              <b
+                >the content inside or for the regulations on prohibited
+                goods</b
+              >
+              to be sent/transported.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Responsibilities and obligations regarding the information used on the
+          SmartBox web application:
+          <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+            <li>
+              When registering and using SmartBox's services through the Web-
+              application, customers will provide complete and accurate personal
+              information at SmartBox's request.
+            </li>
+            <li>
+              The customer agrees to SmartBox using his or her personal
+              information, including phone number, and transferring it to
+              SmartBox servers in order for SmartBox to provide services.
+              Additionally, during SmartBox's provide of the Services, the
+              Customer allows SmartBox the freedom to prepare, collect, keep,
+              and update personal data as needed.
+            </li>
+            <li>
+              The Customer will not allow, assign, or otherwise transfer its
+              Account to any third party. The Customer will be entirely
+              responsible for the use of his or her Account on the SmartBox's
+              Web-Application.
+            </li>
+            <li>
+              The client does not request the performance of services through an
+              account that is not their own.
+            </li>
+            <li>
+              Customers shall carry out the necessary actions to accurately
+              enter the order information in the appropriate fields and provide
+              the sender and recipient's name, address, and phone number.
+              Customer agrees to guarantee that all information provided in the
+              description and details of the goods is true, correct, and
+              comprehensive across all media. SmartBox has the right to unpack
+              the goods and verify that the description accurately describes
+              them if there is any reason to doubt of the goods
+            </li>
+          </ul>
+        </li>
+        <li>
+          About the goods sent in SmartBox smart locker
+          <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+            <li>
+              Customers will be responsible before the law for all goods that
+              they request from SmartBox to perform services; and are obliged to
+              provide full legal Informations and documents when requested by
+              SmartBox or the competent authorities.
+            </li>
+            <li>
+              The customer agrees not to use the service for illegal activities.
+            </li>
+            <li>
+              For any loss or damage to the goods caused by a competent
+              authority, or for any damage incurred by the shipper or any third
+              party as a result of the breach, the customer accepts full duty
+              and responsibility.
+            </li>
+            <li>
+              The automated system on the SmartBox will notify the user to pick
+              up the goods after 3, 6, 12, 24, 48, and 72 hours (beginning from
+              the moment the package is successfully sent into the locker).
+            </li>
+            <li>
+              According to existing legal requirements, the customer utilizing
+              SmartBox's services who causes damages to SmartBox, another
+              SmartBox customer, or any third party is responsible for
+              compensation equal to the amount of damage caused.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Responsibility to notify
+          <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+            <li>
+              The customer must notify SmartBox at 010 505 302 hotline number or
+              via email at hello.wearesmartbox@gmail.com if the customer loses
+              or changes the phone number associated with the account. This will
+              allow SmartBox to make the necessary adjustments or temporarily
+              block the relevant transactions to assist the customer in managing
+              their use of the service.
+            </li>
+            <li>
+              If a customer fails to notify SmartBox and a third party uses that
+              customer's account to request to use the locker, SmartBox is not
+              going to be responsible or settle claims.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Other Regulations
+          <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+            <li>
+              The recipient will be notified via text message that his or her
+              delivery is ready to be taken out of the locker after 72 hours. In
+              the next 24 hours, the recipient must respond to the message or
+              pick up the delivery. After 24 hours, if there is still not any
+              response, SmartBox will note the delivery information and the
+              deliveries will be brought to the SmartBox office.
+            </li>
+            <li>
+              In case the recipient wants to receive the package back, the
+              recipient is required to pay the an additional locker fee pay the
+              delivery fee for SmartBox to deliver the order to the required
+              address.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </section>
 </template>
+
+<style>
+.terms-conditions {
+  background-color: white; /* White background for the box */
+  padding: 20px; /* Padding inside the box */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
+}
+</style>
