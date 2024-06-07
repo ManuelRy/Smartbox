@@ -17,10 +17,10 @@
             </div> -->
             <div class="hidden lg:flex mt-28 h-5/6 lg:w-72 relative ">
                 <div class="relative h-full">
-                    <img src="/img/p1.png" alt="mockup" class="h-full">
+                    <img src="/img/hero/intro.png" alt="mockup" class="h-full">
                 </div>
                 <div class="h-full absolute right-[-72%] top-[5%]">
-                    <img src="/img/p2.png" alt="mockup" class="h-full">
+                    <img src="/img/hero/home.png" alt="mockup" class="h-full">
                 </div> 
             </div>
         </div>
