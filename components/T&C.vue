@@ -166,18 +166,19 @@
           Other Regulations
           <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
             <li>
-              The recipient will be notified via text message that his or her
-              delivery is ready to be taken out of the locker after 72 hours. In
-              the next 24 hours, the recipient must respond to the message or
-              pick up the delivery. After 24 hours, if there is still not any
-              response, SmartBox will note the delivery information and the
-              deliveries will be brought to the SmartBox office.
+              The recipient will receive a text message notifying them that
+              their delivery is ready to be picked up from the locker. They have
+              72 hours to collect it. After this period, the recipient has an
+              additional 24 hours to either respond to the message or pick up
+              the delivery. If there is no response or pickup within these 24
+              hours, SmartBox will record the delivery information and move the
+              packages to the SmartBox office.
             </li>
             <li>
-              In case the recipient wants to receive the package back, the
-              recipient is required to pay the an additional locker fee pay the
-              delivery fee for SmartBox to deliver the order to the required
-              address.
+              If the recipient wants to receive the package after it has been
+              moved to the office, they must pay an additional locker fee and
+              the delivery fee for SmartBox to deliver the package to their
+              specified address.
             </li>
           </ul>
         </li>
