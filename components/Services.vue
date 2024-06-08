@@ -1,14 +1,14 @@
 <template>
   <section class="bg-white dark:bg-gray-900" data-aos="fade-up">
     <div class="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-      <div class="max-w-screen lg:mb-16">
+      <div class="max-w-screen-lg lg:mb-16 mx-auto">
         <h1
-          class="mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
+          class="mb-4 text-4xl sm:text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
         >
           Our Services
         </h1>
       </div>
-      <div class="grid gap-14 md:grid-cols-3 md:gap-5">
+      <div class="grid gap-8 sm:gap-14 md:grid-cols-2 lg:grid-cols-3 md:gap-5">
         <div
           class="rounded-xl bg-orange-300 p-6 text-center shadow-xl"
           data-aos="zoom-in-up"
@@ -31,7 +31,8 @@
           </div>
           <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">STORAGE</h1>
           <p class="px-4 text-black">
-            SmartBox provides a self-storage service. Flexible hours and daily storage options ensure the safety of your belongings.
+            SmartBox provides a self-storage service. Flexible hours and daily
+            storage options ensure the safety of your belongings.
           </p>
           <div class="btn mt-6">
             <a

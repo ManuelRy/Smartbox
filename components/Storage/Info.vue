@@ -6,11 +6,11 @@
       >
         Storage
       </h1>
-      <p class="text-center font-medium mb-12 text-2xl">
+      <p class="text-center font-medium mb-12 text-lg sm:text-2xl text-pretty">
         Offers a convenient and secure storage solution for your belongings
       </p>
       <p
-        class="text-center font-semibold mb-12 text-3xl font-mono text-red-700"
+        class="text-center font-medium mb-12 text-lg sm:text-2xl text-pretty text-red-700"
       >
         HOW TO USE IT?
       </p>

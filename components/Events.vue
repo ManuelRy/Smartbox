@@ -1,7 +1,5 @@
 <template>
-  <section
-    class="bg-orange-200 dark:bg-gray-900"
-  >
+  <section class="bg-orange-200 dark:bg-gray-900">
     <div class="container mx-auto py-20 px-6 lg:px-48">
       <h1
         class="p-4 mb-6 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
@@ -15,11 +13,11 @@
         and many more with full support from our teams.
       </p>
       <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-10">
-        <p
-          class="text-gray-800 dark:text-gray-300 text-center font-medium mb-12 text-2xl"
+        <h1
+          class="p-4 mb-6 text-5xl tracking-tight font-sans font-extrabold text-orange-500 dark:text-white text-center"
         >
           Contact Us for More Information
-        </p>
+        </h1>
         <div class="flex justify-center items-center space-x-6">
           <p
             class="text-gray-800 dark:text-gray-300 text-center font-medium text-2xl flex items-center"

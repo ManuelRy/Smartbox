@@ -6,19 +6,25 @@
       >
         Terms and Conditions
       </h1>
-      <p class="text-center font-semibold mb-12 text-2xl font-mono">
+      <p
+        class="text-center font-semibold mb-12 text-2xl font-mono text-balance"
+      >
         By agreeing to these Terms and Conditions, the Customer acknowledges
         that they shall not transport or store any items in SmartBox lockers,
         including but not limited to certain types of goods.
       </p>
     </div>
     <div class="my-12 flex justify-center items-center">
-      <img src="/img/T&C.png" alt="forbidden-items" class="rounded-2xl w-full sm:w-1/2 lg:w-2/3" />
+      <img
+        src="/img/T&C.png"
+        alt="forbidden-items"
+        class="rounded-2xl w-full sm:w-1/2 lg:w-2/3"
+      />
     </div>
     <div
-      class="terms-conditions my-12 mx-auto px-4 sm:px-6 lg:px-8 flex rounded-md border-white bg-white p-6 text-xl lg:w-10/12"
+      class="terms-conditions my-12 mx-auto px-4 sm:px-6 lg:px-8 flex rounded-md border-white bg-white p-6 text-xl lg:w-10/12 text-pretty"
     >
-      <ul class=" list-inside list-image-[url(/img/svgs/arrow-right.svg)]">
+      <ul class="list-inside list-image-[url(/img/svgs/arrow-right.svg)]">
         <li>
           The "Terms and Conditions for Customers" are shown below; please read
           them carefully. The customer confirms that it has read, understood,
@@ -195,4 +201,3 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
 }
 </style>
-
