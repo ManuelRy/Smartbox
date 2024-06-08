@@ -6,7 +6,7 @@
       >
         Delivery
       </h1>
-      <p class="text-center font-semibold mb-12 text-2xl font-mono">
+      <p class="text-center font-medium mb-12 text-2xl">
         SmartBox provides a luggage and parcel delivery Within the same day
       </p>
       <p

@@ -1,0 +1,64 @@
+<template>
+  <section
+    class="bg-gradient-to-r from-orange-200 via-red-200 to-yellow-200 dark:bg-gray-900"
+  >
+    <div class="container mx-auto py-20 px-6 lg:px-48">
+      <h1
+        class="p-4 mb-6 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
+      >
+        Events
+      </h1>
+      <p
+        class="text-gray-800 dark:text-gray-300 text-center font-medium mb-12 text-2xl"
+      >
+        SmartBox provides a self-storage service at events, meetings, concerts
+        and many more with full support from our teams.
+      </p>
+      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-10">
+        <h2
+          class="p-4 mb-4 text-5xl tracking-tight font-sans font-extrabold text-orange-500 dark:text-white text-center"
+        >
+          Coming Soon
+        </h2>
+        <p
+          class="text-gray-800 dark:text-gray-300 text-center font-medium mb-12 text-2xl"
+        >
+          Contact Us for More Information
+        </p>
+        <div class="flex justify-center items-center space-x-6">
+          <p
+            class="text-gray-800 dark:text-gray-300 text-center font-medium text-2xl flex items-center"
+          >
+            <Icon name="fa6-solid:envelope" class="mr-2" />
+            hello.wearesmartbox@gmail.com
+          </p>
+          <p
+            class="text-gray-800 dark:text-gray-300 text-center font-medium text-2xl flex items-center"
+          >
+            <Icon name="fa6-solid:phone" class="mr-2" />
+            010 505 302
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<style>
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-gradient-to-r {
+  background-size: 200% 200%;
+  animation: gradientBG 15s ease infinite;
+}
+</style>
