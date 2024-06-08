@@ -7,7 +7,7 @@
         Events
       </h1>
       <p
-        class="text-gray-800 dark:text-gray-300 text-center font-medium mb-12 text-2xl"
+        class="text-gray-800 dark:text-gray-300 text-center font-medium mb-12 text-2xl text-balance"
       >
         SmartBox provides a self-storage service at events, meetings, concerts
         and many more with full support from our teams.
