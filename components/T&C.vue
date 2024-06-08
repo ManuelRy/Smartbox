@@ -1,6 +1,6 @@
 <template>
   <section class="bg-orange-200 dark:bg-gray-900">
-    <div class="mx-48 pt-10">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8 pt-10">
       <h1
         class="p-4 mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
       >
@@ -13,12 +13,12 @@
       </p>
     </div>
     <div class="my-12 flex justify-center items-center">
-      <img src="/img/T&C.png" alt="forbidden-items" class="rounded-2xl" />
+      <img src="/img/T&C.png" alt="forbidden-items" class="rounded-2xl w-full sm:w-1/2 lg:w-2/3" />
     </div>
     <div
-      class="terms-conditions my-12 mx-48 flex rounded-md border-white bg-white p-6 text-xl"
+      class="terms-conditions my-12 mx-auto px-4 sm:px-6 lg:px-8 flex rounded-md border-white bg-white p-6 text-xl lg:w-10/12"
     >
-      <ul class="list-image-[url(/img/svgs/arrow-right.svg)] list-inside">
+      <ul class=" list-inside list-image-[url(/img/svgs/arrow-right.svg)]">
         <li>
           The "Terms and Conditions for Customers" are shown below; please read
           them carefully. The customer confirms that it has read, understood,
@@ -31,7 +31,7 @@
           regularly refer to the terms and that any amendments, whether or not
           reviewed by the customer, will constitute the customer’s agreement and
           acceptance of the terms and conditions for this modification.
-          <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+          <ul class="ps-5 mt-2 space-y-1 list-inside list-decimal">
             <li>
               To create an account, customers must enter their name and phone
               number. The customer will receive an OTP code to verify their
@@ -195,3 +195,4 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
 }
 </style>
+
