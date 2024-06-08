@@ -3,9 +3,7 @@
     <div class="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="about-us" data-aos="fade-up">
         <div class="max-w-screen lg:mb-16">
-          <h1
-            class="mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
-          >
+          <h1 class="mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center">
             ABOUT US
           </h1>
         </div>
@@ -24,9 +22,7 @@
       <div class="why-smartbox">
         <div data-aos="fade-down">
           <div class="max-w-screen lg:mb-16">
-            <h1
-              class="mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
-            >
+            <h1 class="mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center">
               Why SmartBox?
             </h1>
           </div>
@@ -38,38 +34,20 @@
             </h3>
           </div>
         </div>
-        <div
-          class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
-        >
-          <div
-            class="max-w-sm rounded-md"
-            data-aos="fade-right"
-            data-aos-delay="200"
-          >
-            <img
-              src="/img/about/convinient.png"
-              alt=""
-              class="w-60 h-60 mx-auto"
-            />
+        <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+          <div class="max-w-sm rounded-md" data-aos="fade-right" data-aos-delay="200">
+            <img src="/img/about/convinient.png" alt="" class="w-60 h-60 mx-auto" />
             <h2 class="text-white text-center text-4xl font-bold mt-4">
               Convenient
             </h2>
           </div>
-          <div
-            class="max-w-sm rounded-md"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
+          <div class="max-w-sm rounded-md" data-aos="fade-up" data-aos-delay="400">
             <img src="/img/about/secure.png" alt="" class="w-60 h-60 mx-auto" />
             <h2 class="text-white text-center text-4xl font-bold mt-4">
               Secure
             </h2>
           </div>
-          <div
-            class="max-w-sm rounded-md"
-            data-aos="fade-left"
-            data-aos-delay="600"
-          >
+          <div class="max-w-sm rounded-md" data-aos="fade-left" data-aos-delay="600">
             <img src="/img/about/24.png" alt="" class="w-60 h-60 mx-auto" />
             <h2 class="text-white text-center text-4xl font-bold mt-4">24/7</h2>
           </div>
