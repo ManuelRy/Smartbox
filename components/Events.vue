@@ -15,11 +15,6 @@
         and many more with full support from our teams.
       </p>
       <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-10">
-        <h2
-          class="p-4 mb-4 text-5xl tracking-tight font-sans font-extrabold text-orange-500 dark:text-white text-center"
-        >
-          Coming Soon
-        </h2>
         <p
           class="text-gray-800 dark:text-gray-300 text-center font-medium mb-12 text-2xl"
         >
