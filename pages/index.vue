@@ -18,10 +18,9 @@ onMounted(() => {
     <Scroll-progress style="z-index: 1051 !important"/>
     <NavBar style="z-index: 1050 !important; position:relative;"/>
     <Hero />
-    <About-us />
-    <Services id="Service" />
+    <About-us id="About"/>
+    <Services />
     <Contact id="Contact" />
-    <Box-size/>
     <Scroller/>
     <Footer />
   </div>

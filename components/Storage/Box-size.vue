@@ -13,8 +13,8 @@
                     Height x Width x Depth</p>
                 <p class="text-black text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">16.8cm x 42.8m x
                     61cm</p>
-                <p class="text-blue-900 text-center font-extrabold text-lg lg:text-2xl mt-4">1000 khr/hour</p>
-                <p class="text-blue-900 text-center font-extrabold text-sm lg:text-lg">240 khr/day</p>
+                <p class="text-blue-900 text-center font-extrabold text-lg lg:text-2xl mt-4">1000 KHR/HOUR</p>
+                <p class="text-blue-900 text-center font-extrabold text-sm lg:text-lg">6000 KHR/HOUR</p>
             </div>
             <div class="flex flex-col items-center p-4 bg-gray-100 rounded-lg shadow-md w-full sm:w-auto">
                 <p class="text-black lg:text-5xl text-center font-extrabold mb-4">M</p>
@@ -25,8 +25,8 @@
                 <p class="text-black text-center font-extrabold text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
                     Height x Width x Depth</p>
                 <p class="text-black text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"> 23cm x 42.8m x 61cm</p>
-                <p class="text-blue-900 text-center font-extrabold text-lg lg:text-2xl mt-4">1000 khr/hour</p>
-                <p class="text-blue-900 text-center font-extrabold text-sm lg:text-lg">240 khr/day</p>
+                <p class="text-blue-900 text-center font-extrabold text-lg lg:text-2xl mt-4">2000 KHR/HOUR</p>
+                <p class="text-blue-900 text-center font-extrabold text-sm lg:text-lg">12000 KHR/HOUR</p>
             </div>
             <div class="flex flex-col items-center p-4 bg-gray-100 rounded-lg shadow-md w-full sm:w-auto">
                 <p class="text-black lg:text-5xl text-center font-extrabold mb-4">L</p>
@@ -37,8 +37,8 @@
                 <p class="text-black text-center font-extrabold text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
                     Height x Width x Depth</p>
                 <p class="text-black text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">48cm x 42.8cm x 61cm</p>
-                <p class="text-blue-900 text-center font-extrabold text-lg lg:text-2xl mt-4">1000 khr/hour</p>
-                <p class="text-blue-900 text-center font-extrabold text-sm lg:text-lg">240 khr/day</p>
+                <p class="text-blue-900 text-center font-extrabold text-lg lg:text-2xl mt-4">3000 KHR/HOUR</p>
+                <p class="text-blue-900 text-center font-extrabold text-sm lg:text-lg">18000 khr/day</p>
             </div>
         </div>
     </section>

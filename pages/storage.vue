@@ -15,7 +15,8 @@ onMounted(() => {
     <!-- <Preloader /> -->
     <NavBar style="z-index: 1050 !important; position: relative" />
     <Hero />
-    <Storage />
+    <StorageInfo />
+    <StorageBox-size/>
     <Footer />
   </div>
 </template>

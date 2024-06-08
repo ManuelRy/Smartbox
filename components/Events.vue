@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-gradient-to-r from-orange-200 via-red-200 to-yellow-200 dark:bg-gray-900"
+    class="bg-orange-200 dark:bg-gray-900"
   >
     <div class="container mx-auto py-20 px-6 lg:px-48">
       <h1
