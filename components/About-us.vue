@@ -11,7 +11,7 @@
         </div>
         <div class="mb-16">
           <h3
-            class="text-center font-bold mb-12 text-lg sm:text-2xl font-mono text-pretty"
+            class="text-center font-bold mb-12 text-lg sm:text-2xl font-mono text-balance"
           >
             SmartBox is a digital locker base in Cambodia, located in the most
             convenient locations, easing the common hassle of having too much to

@@ -7,7 +7,7 @@
         Terms and Conditions
       </h1>
       <p
-        class="text-center font-semibold mb-12 text-2xl font-mono text-balance"
+        class="text-center font-semibold mb-12 text-2xl text-balance"
       >
         By agreeing to these Terms and Conditions, the Customer acknowledges
         that they shall not transport or store any items in SmartBox lockers,
