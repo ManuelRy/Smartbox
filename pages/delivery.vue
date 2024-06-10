@@ -13,6 +13,7 @@ onMounted(() => {
 <template>
   <div>
     <!-- <Preloader /> -->
+    <Scroll-progress style="z-index: 1051 !important"/>
     <NavBar style="z-index: 1050 !important; position: relative" />
     <Hero />
     <DeliveryInfo/>

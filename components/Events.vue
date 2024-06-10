@@ -1,32 +1,36 @@
 <template>
   <section class="bg-orange-200 dark:bg-gray-900">
-    <div class="container mx-auto py-20 px-6 lg:px-48">
+    <div class="container mx-auto py-10 px-4 sm:py-20 sm:px-6 lg:px-48">
       <h1
-        class="p-4 mb-6 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
+        class="p-4 mb-6 text-3xl sm:text-4xl lg:text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
       >
         Events
       </h1>
       <p
-        class="text-gray-800 dark:text-gray-300 text-center font-medium mb-12 text-2xl text-balance"
+        class="text-gray-800 dark:text-gray-300 text-center font-medium mb-6 sm:mb-12 text-lg sm:text-xl lg:text-2xl"
       >
         SmartBox provides a self-storage service at events, meetings, concerts
         and many more with full support from our teams.
       </p>
-      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-10">
+      <div
+        class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 sm:p-8 lg:p-10"
+      >
         <h1
-          class="p-4 mb-6 text-5xl tracking-tight font-sans font-extrabold text-orange-500 dark:text-white text-center"
+          class="p-4 mb-6 text-3xl sm:text-4xl lg:text-5xl tracking-tight font-sans font-extrabold text-orange-500 dark:text-white text-center"
         >
           Contact Us for More Information
         </h1>
-        <div class="flex justify-center items-center space-x-6">
+        <div
+          class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6"
+        >
           <p
-            class="text-gray-800 dark:text-gray-300 text-center font-medium text-2xl flex items-center"
+            class="text-gray-800 dark:text-gray-300 text-center font-medium text-lg sm:text-xl lg:text-2xl flex items-center"
           >
             <Icon name="fa6-solid:envelope" class="mr-2" />
             hello.wearesmartbox@gmail.com
           </p>
           <p
-            class="text-gray-800 dark:text-gray-300 text-center font-medium text-2xl flex items-center"
+            class="text-gray-800 dark:text-gray-300 text-center font-medium text-lg sm:text-xl lg:text-2xl flex items-center"
           >
             <Icon name="fa6-solid:phone" class="mr-2" />
             010 505 302

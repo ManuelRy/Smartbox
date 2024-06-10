@@ -1,9 +1,11 @@
 <template>
   <div class="justify-center w-full">
     <nav
-      class="bg-white dark:bg-gray-900 fixed z-1000 top-0 left-0 right-0 md:w-full w-full lg:w-9/12 mx-auto border-b border-gray-200 dark:border-gray-600 items-center"
+      class="bg-white dark:bg-gray-900 fixed z-1000 top-0 left-0 right-0 w-full border-b border-gray-200 dark:border-gray-600"
     >
-      <div class="max-w-screen-xl flex flex-wrap justify-between mx-auto p-4">
+      <div
+        class="max-w-screen-xl flex flex-wrap justify-between items-center mx-auto p-4"
+      >
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="/img/logo.png"
@@ -47,7 +49,7 @@
             'duration-300': true,
             'ease-in-out': true,
           }"
-          class="items-center justify-between w-full md:flex md:w-auto md:order-1"
+          class="items-center justify-end w-full md:flex md:w-auto md:order-1"
           id="navbar-sticky"
         >
           <ul
@@ -175,6 +177,6 @@ export default {
 }
 
 nav {
-  justify-content: center;
+  justify-content: flex-end;
 }
 </style>
