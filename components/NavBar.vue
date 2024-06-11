@@ -4,7 +4,7 @@
       class="bg-white dark:bg-gray-900 fixed z-1000 top-0 left-0 right-0 w-full border-b border-gray-200 dark:border-gray-600"
     >
       <div
-        class="max-w-screen-xl flex flex-wrap justify-between items-center mx-auto p-1"
+        class="max-w-screen-2xl flex flex-wrap items-center mx-auto p-1 justify-between"
       >
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img
@@ -18,7 +18,7 @@
             @click="toggleMenu"
             data-collapse-toggle="navbar-sticky"
             type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 ml-auto"
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >
@@ -40,7 +40,6 @@
             </svg>
           </button>
         </div>
-
         <div
           :class="{
             hidden: !isMenuOpen,
@@ -49,11 +48,11 @@
             'duration-300': true,
             'ease-in-out': true,
           }"
-          class="items-center justify-end w-full md:flex md:w-auto md:order-1"
+          class="items-center w-full md:flex md:w-auto md:order-1 ml-auto"
           id="navbar-sticky"
         >
           <ul
-            class="flex flex-col justify-center p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
           >
             <li>
               <a
@@ -174,9 +173,5 @@ export default {
 <style>
 .transition-all {
   transition: all 1s ease-in-out;
-}
-
-nav {
-  justify-content: flex-end;
 }
 </style>

@@ -53,7 +53,7 @@
             <img
               src="/img/about/convinient.png"
               alt="Convenient"
-              class="w-32 h-32 sm:w-40 sm:h-40 lg:w-60 lg:h-60 mx-auto"
+              class="w-36 h-36 sm:w-40 sm:h-40 lg:w-60 lg:h-60 mx-auto"
             />
             <h2
               class="text-blue-900 dark:text-white text-center text-xl sm:text-2xl lg:text-4xl font-bold font-montserrat mt-4"
