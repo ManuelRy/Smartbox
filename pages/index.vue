@@ -17,8 +17,8 @@ onMounted(() => {
     <!-- <Preloader /> -->
     <Scroll-progress style="z-index: 1051 !important"/>
     <NavBar style="z-index: 1050 !important; position:relative;"/>
-    <Hero />
-    <About-us id="About"/>
+     <Hero />
+     <About-us id="About"/> 
     <Services />
     <Contact id="Contact" />
     <Scroller/>

@@ -1,10 +1,11 @@
 <template>
   <section
-    class="bg-white dark:bg-gray-900 bg-[url('/img/hero.jpg')] h-screen bg-cover bg-center bg-no-repeat"
+    class="relative bg-[url('/img/hero.jpg')] h-screen bg-cover bg-center bg-no-repeat"
     id="bg"
   >
+    <div class="absolute inset-0 bg-black bg-opacity-20"></div>
     <div
-      class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
+      class="relative grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
       id="image-cv"
     >
       <div
@@ -22,34 +23,34 @@
         </h1>
       </div>
       <div
-        class="hidden lg:flex mt-8 lg:mt-28 h-64 lg:h-5/6 w-full lg:w-72 relative images-container"
+        class="overflow-hidden flex justify-center lg:mt-28 mt-8 h-64 lg:h-4/6 w-full lg:w-72 relative images-container"
       >
-        <div class="relative h-full w-full lg:w-auto">
+        <div class="relative lg:w-auto h-full w-full">
           <img
             src="/img/hero/intro.png"
             alt="mockup"
-            class="intro-img h-full w-full object-contain lg:h-auto lg:max-h-full animate__animated animate__backInLeft"
+            class="intro-img h-full w-full object-contain"
           />
         </div>
         <div
-          class="absolute right-0 lg:right-[-72%] top-[5%] h-full w-full lg:w-auto"
+          class="absolute right-[-40%] top-[5%] w-full h-full"
           id="approach"
         >
           <img
             src="/img/hero/home.png"
-            alt="mockup"
-            class="home-img h-full w-full object-contain lg:h-auto lg:max-h-full animate__animated animate__backInRight"
+            alt="mockup" 
+            class="home-img h-full w-full object-contain"
           />
         </div>
       </div>
     </div>
   </section>
 </template>
+
 <style>
 @media (max-height: 770px) {
   .images-container {
     height: 70vh;
-    right: -35%;
   }
 
   .intro-img,
@@ -62,6 +63,47 @@
   }
   #image-cv {
     margin-left: 10%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .images-container {
+    height: 50vh;
+  }
+
+  .intro-img,
+  .home-img {
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .images-container {
+    height: 40vh;
+  }
+
+  .intro-img,
+  .home-img {
+    height: 100%;
+  }
+  #approach {
+    left: 20%;
+    top: 5%;
+  }
+}
+@media (max-width: 600px) {
+  .images-container {
+    height: 40vh;
+    left: -10%;
+  }
+
+  .intro-img,
+  .home-img {
+    height: 100%;
+  }
+  #approach {
+    left: 25%;
+    top: 5%;
   }
 }
 </style>

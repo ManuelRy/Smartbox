@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white dark:bg-gray-900 font-montserrat" data-aos="fade-up">
+  <section class="bg-white dark:bg-gray-900 font-montserrat overflow-hidden" data-aos="fade-up">
     <div class="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="max-w-screen-lg lg:mb-16 mx-auto">
         <h1
@@ -10,7 +10,7 @@
       </div>
       <div class="grid gap-8 sm:gap-14 md:grid-cols-2 lg:grid-cols-3 md:gap-5">
         <div
-          class="rounded-xl bg-customOrange-300 p-6 text-center shadow-xl"
+          class="rounded-xl bg-customOrange-300 p-6 text-center shadow-xl "
           data-aos="zoom-in-up"
           data-aos-delay="200"
         >
@@ -66,7 +66,7 @@
           </div>
         </div>
         <div
-          class="rounded-xl bg-customOrange-300 p-6 text-center shadow-xl"
+          class="rounded-xl bg-customOrange-300 p-6 text-center shadow-xl "
           data-aos="zoom-in-up"
           data-aos-delay="400"
         >

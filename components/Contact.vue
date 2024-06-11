@@ -1,6 +1,6 @@
 <template>
   <section class="bg-white font-montserrat">
-    <div class="container mx-auto" data-aos="fade-up">
+    <div class="container mx-auto overflow-hidden" data-aos="fade-up">
       <div class="flex justify-center">
         <div class="text-center md:max-w-xl lg:max-w-3xl">
           <h1
