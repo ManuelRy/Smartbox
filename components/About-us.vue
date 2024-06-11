@@ -4,14 +4,14 @@
       <div class="about-us" data-aos="fade-up">
         <div class="mb-16">
           <h1
-            class="mb-4 text-4xl sm:text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
+            class="mb-4 text-4xl sm:text-5xl tracking-tight font-montserrat font-bold text-blue-900 dark:text-white text-center"
           >
             ABOUT US
           </h1>
         </div>
         <div class="mb-16">
           <h3
-            class="text-center font-bold mb-12 text-lg sm:text-2xl font-mono text-balance"
+            class="text-center mb-12 text-lg sm:text-2xl font-montserrat font-semibold text-balance"
           >
             SmartBox is a digital locker base in Cambodia, located in the most
             convenient locations, easing the common hassle of having too much to
@@ -21,20 +21,20 @@
       </div>
     </div>
   </section>
-  <section class="bg-orange-200 dark:bg-gray-900">
+  <section class="bg-white dark:bg-gray-900">
     <div class="px-4 mx-auto max-w-screen-xl py-16 lg:px-6">
       <div class="why-smartbox">
         <div data-aos="fade-down">
           <div class="mb-16">
             <h1
-              class="mb-4 text-4xl sm:text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
+              class="mb-4 text-4xl sm:text-5xl tracking-tight font-montserrat font-bold text-blue-900 dark:text-white text-center"
             >
               Why SmartBox?
             </h1>
           </div>
           <div>
             <h3
-              class="text-center font-bold mb-12 text-lg sm:text-2xl font-mono text-balance"
+              class="text-center mb-12 text-lg sm:text-2xl font-montserrat font-semibold text-balance"
             >
               Our digital lockers are accessible 24/7 at convenient locations.
               Pick up, drop off and store your items when and where it suits
@@ -56,7 +56,7 @@
               class="w-32 h-32 sm:w-40 sm:h-40 lg:w-60 lg:h-60 mx-auto"
             />
             <h2
-              class="text-blue-900 dark:text-white text-center text-xl sm:text-2xl lg:text-4xl font-bold mt-4"
+              class="text-blue-900 dark:text-white text-center text-xl sm:text-2xl lg:text-4xl font-bold font-montserrat mt-4"
             >
               Convenient
             </h2>
@@ -72,7 +72,7 @@
               class="w-32 h-32 sm:w-40 sm:h-40 lg:w-60 lg:h-60 mx-auto"
             />
             <h2
-              class="text-blue-900 dark:text-white text-center text-xl sm:text-2xl lg:text-4xl font-bold mt-4"
+              class="text-blue-900 dark:text-white text-center text-xl sm:text-2xl lg:text-4xl font-bold font-montserrat mt-4"
             >
               Secure
             </h2>
@@ -88,7 +88,7 @@
               class="w-32 h-32 sm:w-40 sm:h-40 lg:w-60 lg:h-60 mx-auto"
             />
             <h2
-              class="text-blue-900 dark:text-white text-center text-xl sm:text-2xl lg:text-4xl font-bold mt-4"
+              class="text-blue-900 dark:text-white text-center text-xl sm:text-2xl lg:text-4xl font-bold font-montserrat mt-4"
             >
               24/7
             </h2>

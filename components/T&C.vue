@@ -1,8 +1,8 @@
 <template>
-  <section class="bg-orange-200 dark:bg-gray-900">
+  <section class="bg-orange-200 dark:bg-gray-900 font-montserrat">
     <div class="mx-auto px-4 sm:px-6 lg:px-8 pt-10">
       <h1
-        class="p-4 mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
+        class="p-4 mb-4 text-5xl tracking-tight font-extrabold text-blue-900 dark:text-white text-center"
       >
         Terms and Conditions
       </h1>
@@ -22,7 +22,7 @@
       />
     </div>
     <div
-      class="terms-conditions my-12 mx-auto px-4 sm:px-6 lg:px-8 flex rounded-md border-white bg-white p-6 text-xl lg:w-10/12 text-pretty"
+      class="terms-conditions my-12 mx-auto px-4 sm:px-6 lg:px-8 flex rounded-md border-white p-6 text-xl lg:w-10/12 text-pretty"
     >
       <ul class="list-inside list-image-[url(/img/svgs/arrow-right.svg)]">
         <li>

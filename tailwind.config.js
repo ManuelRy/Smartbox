@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./node_modules/flowbite/**/*.{js,ts}",
     "./components/**/*.{js,vue,ts}",
@@ -11,21 +11,18 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ["Montserrat"],
+      },
+      colors: {
+        customOrange: {
+          '300': '#f3bd7f',
+          '400': '#E98824',
+        }
+      }
     },
   },
   plugins: [
     require('flowbite/plugin'),
-  ],
-}
-module.exports = {
-  // other options ...
-  plugins: [
-    require('flowbite/plugin')
-  ],
-}
-module.exports = {
-  content: [
-    // other files...
-    "./node_modules/flowbite/**/*.{js,ts}"
   ],
 }

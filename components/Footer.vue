@@ -1,8 +1,7 @@
 <template>
   <footer
-    class="dark:bg-gray-900 overflow-hidden"
+    class="bg-gray-100 dark:bg-gray-900 overflow-hidden font-montserrat"
     data-aos="fade-up"
-    style="background-color: white"
   >
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">

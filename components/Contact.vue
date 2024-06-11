@@ -1,10 +1,10 @@
 <template>
-  <section class="bg-orange-300">
+  <section class="bg-white font-montserrat">
     <div class="container mx-auto" data-aos="fade-up">
       <div class="flex justify-center">
         <div class="text-center md:max-w-xl lg:max-w-3xl">
           <h1
-            class="my-4 text-3xl md:text-4xl lg:text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white"
+            class="my-4 text-3xl md:text-4xl lg:text-5xl tracking-tight font-extrabold text-blue-900 dark:text-white"
           >
             Contact Us
           </h1>
