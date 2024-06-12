@@ -49,16 +49,16 @@
               About 
             </h2>
             <ul class="text-black dark:text-gray-400 font-medium">
-              <li>
+              <li class="mb-4">
                 <a href="#About" class="hover:text-orange-400">About Us</a>
               </li>
-              <li>
+              <li class="mb-4">
                 <a href="/" class="hover:text-orange-400">Why SmartBox?</a>
               </li>
-              <li>
+              <li class="mb-4">
                 <a href="/" class="hover:text-orange-400">Careers</a>
               </li>
-              <li>
+              <li class="mb-4">
                 <a href="/" class="hover:text-orange-400">News</a>
               </li>
             </ul>
@@ -89,7 +89,7 @@
                 href="https://www.facebook.com/profile.php?id=61556244512123&mibextid=LQQJ4d"
               >
                 <Icon
-                  name="fa6-brands:square-facebook"
+                  name="gravity-ui:logo-facebook"
                   class="w-8 h-8 hover:text-orange-400"
                 />
               </a>
@@ -99,7 +99,7 @@
                 href="https://www.instagram.com/smartbox_cambodia?igsh=MWtzZzhraHh1YjRqbQ=="
               >
                 <Icon
-                  name="fa6-brands:square-instagram"
+                  name="radix-icons:instagram-logo"
                   class="w-8 h-8 hover:text-orange-400"
                 />
               </a>

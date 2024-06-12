@@ -20,7 +20,7 @@
     <div class="btn flex justify-center align-center mb-2">
       <button
         type="button"
-        class="text-center focus:outline-none text-white font-medium rounded-lg rounded-r-none text-lg px-12 py-4 me-0"
+        class="text-center focus:outline-none text-white font-medium rounded-lg rounded-r-none text-lg px-16 py-4 me-0"
         :class="{ 'bg-orange-500': showStore, 'bg-orange-300': !showStore }"
         @click="handleClick(true)"
       >
