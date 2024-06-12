@@ -1,35 +1,27 @@
 <template>
-  <section class="bg-orange-200 dark:bg-gray-900 font-montserrat">
+  <section >
+    <div class="bg-customOrange-300 dark:bg-gray-900 font-montserrat">
     <div class="mx-auto px-4 sm:px-6 lg:px-8 pt-10 max-w-7xl">
       <h1
-        class="p-4 mb-4 text-3xl sm:text-4xl lg:text-5xl tracking-tight font-extrabold text-blue-900 dark:text-white text-center"
-      >
+        class="p-4 mb-4 text-3xl sm:text-4xl lg:text-5xl tracking-tight font-extrabold text-blue-900 dark:text-white text-center">
         Terms and Conditions
       </h1>
-      <p
-        class="text-center font-medium mb-12 text-lg sm:text-xl lg:text-2xl text-balance"
-      >
+      <p class="text-center font-medium mb-12 text-lg sm:text-xl lg:text-2xl text-balance">
         By agreeing to these Terms and Conditions, the Customer acknowledges
         that they shall not transport or store any items in SmartBox lockers,
         including but not limited to certain types of goods.
       </p>
     </div>
     <div class="my-12 flex justify-center items-center">
-      <img
-        src="/img/T&C.png"
-        alt="forbidden-items"
-        class="rounded-2xl w-full sm:w-3/4 lg:w-2/3"
-      />
+      <img src="/img/T&C.png" alt="forbidden-items" class="rounded-2xl w-full sm:w-3/4 lg:w-2/3" />
     </div>
     <div class="terms-conditions my-12 mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-      <ul
-        class="list-inside list-image-[url(/img/svgs/arrow-right.svg)] space-y-4"
-      >
+      <ul class="list-inside list-image-[url(/img/svgs/arrow-right.svg)] space-y-4">
         <p class="text-center text-balance">
           The <b>"Terms and Conditions for Customers"</b> are shown below; please read
           them carefully. The customer confirms that it has read, understood,
           confirmed, accepted, and agreed to abide by the terms and administer
-          this conversion each time you use the package locker service (service)
+          this conversion each time you use the package locker service
           provided by the SmartBox web application.
         </p>
         <li>
@@ -42,8 +34,7 @@
               To create an account, customers must enter their name and phone
               number. The customer will receive an OTP code to verify their
               phone number. Following the completion of the information,
-              SmartBox will provide the client access to a unique account
-              (Account), through which they may track and manage their
+              SmartBox will provide the client access to a unique account, through which they may track and manage their
               transaction process.
             </li>
             <li>
@@ -65,17 +56,15 @@
               inspection within 48 hours after checking the camera. If the error
               in the package loss originates from SmartBox, the company will be
               responsible for the package.
-              <p class="font-bold mt-2">
+              <p class="font-bold mt-2 text-red-600">
                 NOTE: SmartBox is only responsible for packages that are less
                 than 50 USD.
               </p>
             </li>
             <li>
               SmartBox is not responsible for
-              <span class="font-bold"
-                >the content inside or for the regulations on prohibited
-                goods</span
-              >
+              <span class="font-bold">the content inside or for the regulations on prohibited
+                goods</span>
               to be sent/transported.
             </li>
           </ul>
@@ -190,16 +179,9 @@
         </li>
       </ul>
     </div>
+  </div>
   </section>
+  
 </template>
 
-<style>
-.terms-conditions {
-  background-color: white; /* White background for the box */
-  padding: 20px; /* Padding inside the box */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
-  line-height: 1.6; /* Increase line height for better readability */
-  margin-bottom: 50px; /* Add margin at the bottom to create space from the footer */
-}
-</style>
+<style></style>
