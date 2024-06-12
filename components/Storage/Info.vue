@@ -17,7 +17,7 @@
         HOW TO USE IT?
       </p>
     </div>
-    <div class="btn flex justify-center align-center">
+    <div class="btn flex justify-center align-center mb-2">
       <button
         type="button"
         class="focus:outline-none text-white font-medium rounded-lg text-lg px-8 py-4 me-0 -ml-1"

@@ -43,7 +43,7 @@
               data-aos-delay="200"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 1
               </h1>
@@ -62,7 +62,7 @@
               data-aos-delay="400"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 2
               </h1>
@@ -81,7 +81,7 @@
               data-aos-delay="600"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 3
               </h1>
@@ -139,7 +139,7 @@
               data-aos-delay="800"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 4
               </h1>
@@ -166,7 +166,7 @@
               data-aos-delay="200"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 1
               </h1>
@@ -185,7 +185,7 @@
               data-aos-delay="400"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 2
               </h1>
@@ -204,7 +204,7 @@
               data-aos-delay="600"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 3
               </h1>
@@ -223,7 +223,7 @@
               data-aos-delay="800"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 4
               </h1>
