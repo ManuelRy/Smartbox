@@ -1,13 +1,13 @@
 <template>
   <section class="bg-orange-200 dark:bg-gray-900 font-montserrat">
-    <div class="mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8 pt-10 max-w-7xl">
       <h1
         class="p-4 mb-4 text-3xl sm:text-4xl lg:text-5xl tracking-tight font-extrabold text-blue-900 dark:text-white text-center"
       >
         Terms and Conditions
       </h1>
       <p
-        class="text-center font-semibold mb-12 text-lg sm:text-xl lg:text-2xl text-balance"
+        class="text-center font-medium mb-12 text-lg sm:text-xl lg:text-2xl text-balance"
       >
         By agreeing to these Terms and Conditions, the Customer acknowledges
         that they shall not transport or store any items in SmartBox lockers,
@@ -18,13 +18,13 @@
       <img
         src="/img/T&C.png"
         alt="forbidden-items"
-        class="rounded-2xl w-full sm:w-1/2 lg:w-2/3"
+        class="rounded-2xl w-full sm:w-3/4 lg:w-2/3"
       />
     </div>
-    <div
-      class="terms-conditions my-12 mx-auto px-4 sm:px-6 lg:px-8 flex rounded-md border-white p-6 text-base sm:text-lg lg:text-xl text-pretty"
-    >
-      <ul class="list-inside list-image-[url(/img/svgs/arrow-right.svg)]">
+    <div class="terms-conditions my-12 mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+      <ul
+        class="list-inside list-image-[url(/img/svgs/arrow-right.svg)] space-y-4"
+      >
         <li>
           The "Terms and Conditions for Customers" are shown below; please read
           them carefully. The customer confirms that it has read, understood,
@@ -37,7 +37,7 @@
           regularly refer to the terms and that any amendments, whether or not
           reviewed by the customer, will constitute the customer’s agreement and
           acceptance of the terms and conditions for this modification.
-          <ul class="pl-5 mt-2 space-y-1 list-inside list-decimal">
+          <ul class="pl-5 mt-2 space-y-2 list-inside list-decimal">
             <li>
               To create an account, customers must enter their name and phone
               number. The customer will receive an OTP code to verify their
@@ -65,16 +65,16 @@
               inspection within 48 hours after checking the camera. If the error
               in the package loss originates from SmartBox, the company will be
               responsible for the package.
+              <p class="font-bold mt-2">
+                NOTE: SmartBox is only responsible for packages that are less
+                than 50 USD.
+              </p>
             </li>
-            <p>
-              <b>NOTE:</b> SmartBox is only responsible
-              <b>for packages that are less than 50 USD.</b>
-            </p>
             <li>
               SmartBox is not responsible for
-              <b
+              <span class="font-bold"
                 >the content inside or for the regulations on prohibited
-                goods</b
+                goods</span
               >
               to be sent/transported.
             </li>
@@ -83,7 +83,7 @@
         <li>
           Responsibilities and obligations regarding the information used on the
           SmartBox web application:
-          <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
+          <ul class="pl-5 mt-2 space-y-2 list-decimal list-inside">
             <li>
               When registering and using SmartBox's services through the Web-
               application, customers will provide complete and accurate personal
@@ -115,13 +115,13 @@
               description and details of the goods is true, correct, and
               comprehensive across all media. SmartBox has the right to unpack
               the goods and verify that the description accurately describes
-              them if there is any reason to doubt of the goods
+              them if there is any reason to doubt of the goods.
             </li>
           </ul>
         </li>
         <li>
-          About the goods sent in SmartBox smart locker
-          <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
+          About the goods sent in SmartBox smart locker:
+          <ul class="pl-5 mt-2 space-y-2 list-decimal list-inside">
             <li>
               Customers will be responsible before the law for all goods that
               they request from SmartBox to perform services; and are obliged to
@@ -151,8 +151,8 @@
           </ul>
         </li>
         <li>
-          Responsibility to notify
-          <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
+          Responsibility to notify:
+          <ul class="pl-5 mt-2 space-y-2 list-decimal list-inside">
             <li>
               The customer must notify SmartBox at 010 505 302 hotline number or
               via email at hello.wearesmartbox@gmail.com if the customer loses
@@ -169,8 +169,8 @@
           </ul>
         </li>
         <li>
-          Other Regulations
-          <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
+          Other Regulations:
+          <ul class="pl-5 mt-2 space-y-2 list-decimal list-inside">
             <li>
               The recipient will receive a text message notifying them that
               their delivery is ready to be picked up from the locker. They have
@@ -199,5 +199,19 @@
   padding: 20px; /* Padding inside the box */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
+  line-height: 1.6; /* Increase line height for better readability */
+}
+@media (max-width: 768px) {
+  .terms-conditions {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+}
+@media (max-width: 480px) {
+  .terms-conditions {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+  .terms-conditions ul {
+    padding-left: 1rem; /* Adjust list padding for smaller screens */
+  }
 }
 </style>
