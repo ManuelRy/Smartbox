@@ -38,7 +38,7 @@
         <div class="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="grid gap-14 md:grid-cols-4 md:gap-2">
             <div
-              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-customOrange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="200"
             >
@@ -57,7 +57,7 @@
               </h1>
             </div>
             <div
-              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-customOrange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="400"
             >
@@ -76,7 +76,7 @@
               </h1>
             </div>
             <div
-              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-customOrange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="600"
             >
@@ -134,7 +134,7 @@
               </h1>
             </div>
             <div
-              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-customOrange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="800"
             >
@@ -161,7 +161,7 @@
         <div class="py-2 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="grid gap-14 md:grid-cols-4 md:gap-2">
             <div
-              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-customOrange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="200"
             >
@@ -180,7 +180,7 @@
               </h1>
             </div>
             <div
-              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-customOrange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="400"
             >
@@ -199,7 +199,7 @@
               </h1>
             </div>
             <div
-              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-customOrange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="600"
             >
@@ -218,7 +218,7 @@
               </h1>
             </div>
             <div
-              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-customOrange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="800"
             >

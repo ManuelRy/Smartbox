@@ -29,6 +29,7 @@
             <Icon name="fa6-solid:envelope" class="mr-2" />
             hello.wearesmartbox@gmail.com
           </p>
+          <br />
           <p
             class="text-gray-800 dark:text-gray-300 text-center font-medium text-base sm:text-lg lg:text-xl flex items-center"
           >
