@@ -20,7 +20,7 @@
           </p>
           <p class="ml-12 mb-6">
             <Icon name="fa6-solid:phone" />
-            010 505 302
+            (+855) 10 505 302
           </p>
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

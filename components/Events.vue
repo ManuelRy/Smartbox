@@ -34,7 +34,7 @@
             class="text-gray-800 dark:text-gray-300 text-center font-medium text-base sm:text-lg lg:text-xl flex items-center"
           >
             <Icon name="fa6-solid:phone" class="mr-2" />
-            010 505 302
+            (+855) 10 505 302
           </p>
         </div>
       </div>
