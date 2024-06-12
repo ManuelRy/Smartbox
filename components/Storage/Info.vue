@@ -180,9 +180,9 @@
     <div v-if="showTakeout" class="to-takeout flex items-center justify-center">
       <section class="bg-white dark:bg-gray-900 pt-0" data-aos="fade-up">
         <div class="py-2 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <div class="grid gap-14 md:grid-cols-5 md:gap-2">
+          <div class="grid gap-14 md:grid-cols-5 sm:grid-cols-3 md:gap-2">
             <div
-              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full col-start-2"
+              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full md:col-start-2 sm: col-start-1"
               data-aos="zoom-in-up"
               data-aos-delay="200"
             >

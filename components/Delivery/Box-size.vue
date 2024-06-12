@@ -1,6 +1,6 @@
 <template>
   <section
-    class=" font-montserrat bg-white dark:bg-gray-900 items-center py-8 px-4 mx-auto max-w-screen-lg sm:py-16 lg:px-6"
+    class="font-montserrat bg-white dark:bg-gray-900 items-center py-8 px-4 mx-auto max-w-screen-lg sm:py-16 lg:px-6"
   >
     <div class="text-center mb-8 lg:mb-16">
       <h2
