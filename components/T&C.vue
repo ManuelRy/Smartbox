@@ -25,13 +25,13 @@
       <ul
         class="list-inside list-image-[url(/img/svgs/arrow-right.svg)] space-y-4"
       >
-        <li>
-          The "Terms and Conditions for Customers" are shown below; please read
+        <p class="text-center text-balance">
+          The <b>"Terms and Conditions for Customers"</b> are shown below; please read
           them carefully. The customer confirms that it has read, understood,
           confirmed, accepted, and agreed to abide by the terms and administer
           this conversion each time you use the package locker service (service)
           provided by the SmartBox web application.
-        </li>
+        </p>
         <li>
           The customer agrees that it is the customer’s responsibility to
           regularly refer to the terms and that any amendments, whether or not
@@ -200,18 +200,6 @@
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
   line-height: 1.6; /* Increase line height for better readability */
-}
-@media (max-width: 768px) {
-  .terms-conditions {
-    padding: 15px; /* Adjust padding for smaller screens */
-  }
-}
-@media (max-width: 480px) {
-  .terms-conditions {
-    padding: 10px; /* Adjust padding for smaller screens */
-  }
-  .terms-conditions ul {
-    padding-left: 1rem; /* Adjust list padding for smaller screens */
-  }
+  margin-bottom: 50px; /* Add margin at the bottom to create space from the footer */
 }
 </style>
