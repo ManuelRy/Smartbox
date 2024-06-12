@@ -57,7 +57,7 @@
             <li>
               <a
                 href="/"
-                class="block py-2 px-3 text-lg text-white bg-orange-400 rounded md:bg-transparent md:text-orange-400 md:p-0 md:dark:text-blue-500 scroll-smooth focus:scroll-auto hover:underline"
+                class="navbar-link block py-2 px-3 text-lg text-white bg-orange-400 rounded md:bg-transparent md:text-orange-400 md:p-0 md:dark:text-blue-500 scroll-smooth focus:scroll-auto"
                 aria-current="page"
                 >HOME</a
               >
@@ -66,17 +66,20 @@
               <nuxt-link to="#About">
                 <a
                   href="#About"
-                  class="block py-2 px-3 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 scroll-smooth focus:scroll-auto hover:underline"
+                  class="navbar-link block py-2 px-3 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 scroll-smooth focus:scroll-auto"
                   >ABOUT</a
                 >
               </nuxt-link>
             </li>
-            <li>
+            <li
+              class="relative"
+              @mouseover="showDropdown"
+              @mouseleave="hideDropdown"
+            >
               <a
-                id="dropdownDefaultButton"
-                data-dropdown-toggle="dropdown"
                 href="#Service"
-                class="block py-2 px-3 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:underline"
+                class="navbar-link block py-2 px-3 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                @click="scrollToService"
               >
                 SERVICES
                 <svg
@@ -98,7 +101,7 @@
 
               <div
                 id="dropdown"
-                class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
+                class="absolute left-0 z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
               >
                 <ul
                   class="py-2 text-sm text-gray-700 dark:text-gray-200"
@@ -137,14 +140,14 @@
             <li>
               <a
                 href="#Contact"
-                class="block py-2 px-3 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:underline"
+                class="navbar-link block py-2 px-3 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >CONTACT</a
               >
             </li>
             <li>
               <a
                 href="#Contact"
-                class="block py-2 px-3 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:underline"
+                class="navbar-link block py-2 px-3 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >MEMBERS</a
               >
             </li>
@@ -166,12 +169,41 @@ export default {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen;
     },
+    showDropdown() {
+      document.getElementById("dropdown").classList.remove("hidden");
+    },
+    hideDropdown() {
+      document.getElementById("dropdown").classList.add("hidden");
+    },
+    scrollToService(event) {
+      event.preventDefault();
+      document.getElementById("Service").scrollIntoView({ behavior: "smooth" });
+    },
   },
 };
 </script>
 
 <style>
-.transition-all {
-  transition: all 1s ease-in-out;
+.navbar-link {
+  position: relative;
+}
+.navbar-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -6px; /* Adjust the distance below the text */
+  left: 0;
+  background-color: currentColor;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.navbar-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.relative:hover #dropdown {
+  display: block;
 }
 </style>

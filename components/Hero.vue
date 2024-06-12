@@ -27,19 +27,9 @@
       >
         <div class="relative lg:w-auto h-full w-full">
           <img
-            src="/img/hero/intro.png"
+            src="/img/hero/app.png"
             alt="mockup"
             class="intro-img h-full w-full object-contain"
-          />
-        </div>
-        <div
-          class="absolute right-[-40%] top-[5%] w-full h-full"
-          id="approach"
-        >
-          <img
-            src="/img/hero/home.png"
-            alt="mockup" 
-            class="home-img h-full w-full object-contain"
           />
         </div>
       </div>
