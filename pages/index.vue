@@ -14,9 +14,9 @@ onMounted(() => {
   <div>
     <!-- <Preloader /> -->
     <Scroll-progress style="z-index: 1051 !important"/>
-    <NavBar style="z-index: 1050 !important; position:relative;"/>
+    <NavBar style="z-index: 1050 !important; position:relative;"/> 
+    <Hero />
     <div class="content-container">
-      <Hero />
       <About-us id="About"/> 
       <Services />
       <Contact id="Contact" />

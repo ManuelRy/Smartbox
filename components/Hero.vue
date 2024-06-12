@@ -63,15 +63,15 @@
 @media (max-width: 807px) {
   .responsive-image {
     width: 50%; /* Adjust the width for better responsiveness */
-    max-height: 40vh; /* Adjust the max-height for smaller screens */
+    max-height: 50vh; /* Adjust the max-height for smaller screens */
   }
 }
-
-/* Media query for screens 600px wide or less */
-@media (max-width: 600px) {
+@media (max-width: 471px) {
   .responsive-image {
-    width: 40%; /* Adjust the width for better responsiveness */
-    max-height: 30vh; /* Adjust the max-height for smaller screens */
+    width: 60%; /* Adjust the width for better responsiveness */
+    max-height: 120vh; /* Adjust the max-height for smaller screens */
   }
 }
+/* Media query for screens 600px wide or less */
+
 </style>
