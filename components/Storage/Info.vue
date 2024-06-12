@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-orange-200 dark:bg-gray-900 font-montserrat">
+  <section class="bg-white dark:bg-gray-900 font-montserrat">
     <div class="mx-48 pt-10">
       <h1
         class="mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
@@ -18,7 +18,7 @@
     <div class="btn flex justify-center align-center">
       <button
         type="button"
-        class="focus:outline-none text-white font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
+        class="focus:outline-none text-white font-medium rounded-lg text-lg px-8 py-4 me-0 -ml-1"
         :class="{ 'bg-orange-500': showStore, 'bg-orange-300': !showStore }"
         @click="handleClick(true)"
       >
@@ -26,7 +26,7 @@
       </button>
       <button
         type="button"
-        class="focus:outline-none text-white font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
+        class="focus:outline-none text-white font-medium rounded-lg text-lg px-8 py-4 me-0 -ml-1"
         :class="{ 'bg-orange-500': showTakeout, 'bg-orange-300': !showTakeout }"
         @click="handleClick(false)"
       >
@@ -34,44 +34,42 @@
       </button>
     </div>
     <div v-if="showStore" class="to-store">
-      <section class="bg-orange-200 dark:bg-gray-900" data-aos="fade-up">
+      <section class="bg-white dark:bg-gray-900" data-aos="fade-up">
         <div class="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="grid gap-14 md:grid-cols-5 md:gap-2">
             <div
-              class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="200"
             >
-              <div
-                class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
+              <h1
+                class="step-title my-1 text-darken mb-3 text-xl font-bold lg:px-10"
               >
-                <img
-                  src="/img/process/qr.png"
-                  alt=""
-                  width="75"
-                  height="75"
-                  srcset=""
-                />
-              </div>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-10">
                 Step 1
               </h1>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-6">
+              <div class="step-icon mx-auto my-4">
+                <img src="/img/process/qr.png" alt="" class="h-32 w-32" />
+              </div>
+              <h1
+                class="step-info text-darken mb-3 text-xl font-medium lg:px-6"
+              >
                 Scan QR Code on our locker
               </h1>
             </div>
             <div
-              class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="400"
             >
-              <div
-                class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
+              <h1
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
+                Step 2
+              </h1>
+              <div class="step-icon mx-auto my-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="75"
-                  height="75"
+                  class="h-32 w-32"
                   viewBox="0 0 72 72"
                 >
                   <path
@@ -110,77 +108,66 @@
                   </g>
                 </svg>
               </div>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-10">
-                Step 2
-              </h1>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-6">
+              <h1
+                class="step-info text-darken mb-3 text-xl font-medium lg:px-6"
+              >
                 Choose Package Size
               </h1>
             </div>
             <div
-              class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="600"
             >
-              <div
-                class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
+              <h1
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
-                <img
-                  src="/img/process/fill.png"
-                  width="75"
-                  height="75"
-                  srcset=""
-                />
-              </div>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-10">
                 Step 3
               </h1>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-6">
+              <div class="step-icon mx-auto my-4">
+                <img src="/img/process/fill.png" class="h-32 w-32" />
+              </div>
+              <h1
+                class="step-info text-darken mb-3 text-xl font-medium lg:px-6"
+              >
                 Fill in your information
               </h1>
             </div>
             <div
-              class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="800"
             >
-              <div
-                class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
+              <h1
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
-                <img
-                  src="/img/process/pin.png"
-                  width="60"
-                  height="60"
-                  srcset=""
-                />
-              </div>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-10">
                 Step 4
               </h1>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-6">
+              <div class="step-icon mx-auto my-4">
+                <img src="/img/process/pin.png" class="h-32 w-32" />
+              </div>
+              <h1
+                class="step-info text-darken mb-3 text-xl font-medium lg:px-6"
+              >
                 Create Your Own PIN
               </h1>
             </div>
             <div
-              class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="1000"
             >
-              <div
-                class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
+              <h1
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
-                <img
-                  src="/img/process/done.png"
-                  width="60"
-                  height="60"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-10">
                 Step 5
               </h1>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-6">
+              <div class="step-icon mx-auto my-4">
+                <img src="/img/process/done.png" class="h-32 w-32" />
+              </div>
+              <h1
+                class="step-info text-darken mb-3 text-xl font-medium lg:px-6"
+              >
                 Place your belongings in locker
               </h1>
             </div>
@@ -189,75 +176,63 @@
       </section>
     </div>
     <div v-if="showTakeout" class="to-takeout flex items-center justify-center">
-      <section class="bg-orange-200 dark:bg-gray-900 pt-0" data-aos="fade-up">
+      <section class="bg-white dark:bg-gray-900 pt-0" data-aos="fade-up">
         <div class="py-2 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="grid gap-14 md:grid-cols-5 md:gap-2">
             <div
-              class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full col-start-2"
+              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full col-start-2"
               data-aos="zoom-in-up"
               data-aos-delay="200"
             >
-              <div
-                class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
+              <h1
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
-                <img
-                  src="/img/process/qr.png"
-                  alt=""
-                  width="75"
-                  height="75"
-                  srcset=""
-                />
-              </div>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-10">
                 Step 1
               </h1>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-6">
+              <div class="step-icon mx-auto my-4">
+                <img src="/img/process/qr.png" alt="" class="h-32 w-32" />
+              </div>
+              <h1
+                class="step-info text-darken mb-3 text-xl font-medium lg:px-6"
+              >
                 Scan QR Code on our locker
               </h1>
             </div>
             <div
-              class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="400"
             >
-              <div
-                class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
+              <h1
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
-                <img
-                  src="/img/process/pin.png"
-                  alt=""
-                  width="75"
-                  height="75"
-                  srcset=""
-                />
-              </div>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-10">
                 Step 2
               </h1>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-6">
+              <div class="step-icon mx-auto my-4">
+                <img src="/img/process/pin.png" alt="" class="h-32 w-32" />
+              </div>
+              <h1
+                class="step-info text-darken mb-3 text-xl font-medium lg:px-6"
+              >
                 Input your PIN
               </h1>
             </div>
             <div
-              class="rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
+              class="step-item rounded-xl bg-orange-300 p-6 text-center shadow-xl md:w-full"
               data-aos="zoom-in-up"
               data-aos-delay="600"
             >
-              <div
-                class="mx-auto flex h-24 w-24 -translate-y-12 transform items-center justify-center rounded-full bg-orange-500 shadow-lg shadow-teal-500/40"
+              <h1
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
-                <img
-                  src="/img/process/done2.png"
-                  alt=""
-                  width="75"
-                  height="75"
-                  srcset=""
-                />
-              </div>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-10">
                 Step 3
               </h1>
-              <h1 class="text-darken mb-3 text-xl font-medium lg:px-6">
+              <div class="step-icon mx-auto my-4">
+                <img src="/img/process/done2.png" alt="" class="h-32 w-32" />
+              </div>
+              <h1
+                class="step-info text-darken mb-3 text-xl font-medium lg:px-6"
+              >
                 Take out your belongings
               </h1>
             </div>
@@ -293,3 +268,25 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.step-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-icon {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.step-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.step-info {
+  margin-top: 1rem;
+}
+</style>

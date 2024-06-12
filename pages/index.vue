@@ -1,4 +1,3 @@
-
 <script setup>
 import { useScroll } from '@vueuse/core';
 import { onMounted } from "vue";
@@ -9,7 +8,6 @@ import Footer from "~/components/Footer.vue";
 onMounted(() => {
   initFlowbite();
 });
-
 </script>
 
 <template>
@@ -17,11 +15,20 @@ onMounted(() => {
     <!-- <Preloader /> -->
     <Scroll-progress style="z-index: 1051 !important"/>
     <NavBar style="z-index: 1050 !important; position:relative;"/>
-     <Hero />
-     <About-us id="About"/> 
-    <Services />
-    <Contact id="Contact" />
-    <Scroller/>
+    <div class="content-container">
+      <Hero />
+      <About-us id="About"/> 
+      <Services />
+      <Contact id="Contact" />
+      <Scroller/>
+    </div>
     <Footer />
   </div>
 </template>
+
+<style scoped>
+.content-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+</style>
