@@ -20,7 +20,7 @@
     <div class="btn flex justify-center align-center mb-2">
       <button
         type="button"
-        class="focus:outline-none text-white font-medium rounded-lg text-lg px-8 py-4 me-0 -ml-1"
+        class="text-center focus:outline-none text-white font-medium rounded-lg rounded-r-none text-lg px-12 py-4 me-0"
         :class="{ 'bg-orange-500': showStore, 'bg-orange-300': !showStore }"
         @click="handleClick(true)"
       >
@@ -28,7 +28,7 @@
       </button>
       <button
         type="button"
-        class="focus:outline-none text-white font-medium rounded-lg text-lg px-8 py-4 me-0 -ml-1"
+        class="text-center focus:outline-none text-white font-medium rounded-lg rounded-l-none text-lg px-12 py-4 me-0"
         :class="{ 'bg-orange-500': showTakeout, 'bg-orange-300': !showTakeout }"
         @click="handleClick(false)"
       >
