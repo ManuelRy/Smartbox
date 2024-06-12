@@ -46,7 +46,7 @@
             <h2
               class="mb-6 text-md font-semibold text-orange-400 uppercase dark:text-white"
             >
-              About Us
+              About 
             </h2>
             <ul class="text-black dark:text-gray-400 font-medium">
               <li>
