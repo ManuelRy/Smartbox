@@ -24,7 +24,7 @@
           class="flex justify-center items-center mb-4 h-32 w-24 md:w-26 lg:w-28 dark:bg-primary-900 rounded-full"
         >
           <img
-            src="/img/locker/locker.png"
+            src="/img/locker/safe.png"
             alt="Locker Image"
             class="w-16 h-16"
           />
@@ -48,7 +48,7 @@
           class="flex justify-center items-center mb-4 h-32 w-28 md:w-32 lg:w-36 dark:bg-primary-900 rounded-full"
         >
           <img
-            src="/img/locker/locker.png"
+            src="/img/locker/safe.png"
             alt="Locker Image"
             class="w-24 h-24"
           />
@@ -72,7 +72,7 @@
           class="flex justify-center items-center mb-4 h-32 w-32 md:w-36 lg:w-40 dark:bg-primary-900 rounded-full"
         >
           <img
-            src="/img/locker/locker.png"
+            src="/img/locker/safe.png"
             alt="Locker Image"
             class="w-32 h-32"
           />

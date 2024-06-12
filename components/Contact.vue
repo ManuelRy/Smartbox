@@ -12,7 +12,7 @@
       </div>
       <div class="flex flex-wrap items-center justify-center">
         <form class="w-full lg:w-5/12 md:px-3 lg:px-6">
-          <div class="mb-3 w-full">
+          <div class="mb-6 w-full">
             <label
               class="block font-medium mb-1 text-black"
               htmlFor="nameInput"
@@ -27,7 +27,7 @@
             />
           </div>
 
-          <div class="mb-3 w-full">
+          <div class="mb-6 w-full">
             <label
               class="block font-medium mb-1 text-black"
               htmlFor="emailInput"
@@ -42,7 +42,7 @@
             />
           </div>
 
-          <div class="mb-3 w-full">
+          <div class="mb-6 w-full">
             <label
               class="block font-medium mb-1 text-black"
               htmlFor="messageInput"
@@ -53,6 +53,7 @@
               class="px-4 py-2 border rounded-md w-full outline-none resize-none"
               id="messageInput"
               placeholder="Enter your message"
+              rows="6"
             ></textarea>
           </div>
 
