@@ -18,7 +18,7 @@
               </svg>
             </div>
             <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">STORAGE</h1>
-            <p class="px-4 text-black">
+            <p class="px-4 text-black text-balance">
               SmartBox provides a self-storage service. Flexible hours and daily
               storage options ensure the safety of your belongings.
             </p>
@@ -50,7 +50,7 @@
               </svg>
             </div>
             <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">EVENTS</h1>
-            <p class="px-4 text-black">
+            <p class="px-4 text-black text-balance">
               SmartBox provides a self-storage service at events, meetings,
               concerts, and many more with full support from our teams.
             </p>
@@ -92,7 +92,7 @@
             <h1 class="text-darken mb-3 text-xl font-medium lg:px-14">
               DELIVERY
             </h1>
-            <p class="px-4 text-black">
+            <p class="px-4 text-black text-balance">
               SmartBox provides Luggage and parcel delivery Within the same day to
               airports, hotels, and anywhere in Phnom Penh.
             </p>

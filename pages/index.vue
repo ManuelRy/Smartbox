@@ -19,6 +19,7 @@ onMounted(() => {
     <div class="content-container">
       <About-us id="About"/> 
       <Services />
+      <ComingSoon />
       <Contact id="Contact" />
       <Scroller/>
     </div>
