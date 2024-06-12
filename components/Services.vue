@@ -3,7 +3,7 @@
     <div class="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="max-w-screen-lg lg:mb-16 mx-auto">
         <h1
-          class="mb-4 text-4xl sm:text-5xl tracking-tight font-bold text-blue-900 dark:text-white text-center"
+          class="mb-8 text-4xl sm:text-5xl tracking-tight font-bold text-blue-900 dark:text-white text-center"
         >
           Our Services
         </h1>

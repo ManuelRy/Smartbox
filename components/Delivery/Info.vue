@@ -18,7 +18,7 @@
     <div class="btn flex justify-center align-center mb-2">
       <button
         type="button"
-        class="focus:outline-none text-white font-medium rounded-lg text-lg px-8 py-4 me-0 -ml-1"
+        class="text-center focus:outline-none text-white font-medium rounded-lg rounded-r-none text-lg px-12 py-4 me-0"
         :class="{ 'bg-orange-500': showStore, 'bg-orange-300': !showStore }"
         @click="handleClick(true)"
       >
@@ -26,7 +26,7 @@
       </button>
       <button
         type="button"
-        class="focus:outline-none text-white font-medium rounded-lg text-lg px-8 py-4 me-0 -ml-1"
+        class="text-center focus:outline-none text-white font-medium rounded-lg rounded-l-none text-lg px-12 py-4 me-0"
         :class="{ 'bg-orange-500': showTakeout, 'bg-orange-300': !showTakeout }"
         @click="handleClick(false)"
       >
@@ -43,7 +43,7 @@
               data-aos-delay="200"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 1
               </h1>
@@ -62,7 +62,7 @@
               data-aos-delay="400"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 2
               </h1>
@@ -81,7 +81,7 @@
               data-aos-delay="600"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 3
               </h1>
@@ -139,7 +139,7 @@
               data-aos-delay="800"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 4
               </h1>
@@ -166,7 +166,7 @@
               data-aos-delay="200"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 1
               </h1>
@@ -185,7 +185,7 @@
               data-aos-delay="400"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 2
               </h1>
@@ -204,7 +204,7 @@
               data-aos-delay="600"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 3
               </h1>
@@ -223,7 +223,7 @@
               data-aos-delay="800"
             >
               <h1
-                class="step-title text-darken mb-3 text-xl font-medium lg:px-10"
+                class="step-title text-darken mb-3 text-xl font-bold lg:px-10"
               >
                 Step 4
               </h1>
@@ -302,5 +302,8 @@ export default {
     justify-content: center;
     align-items: center;
   }
+}
+.btn button {
+  transition: width 0.3s ease-in-out;
 }
 </style>

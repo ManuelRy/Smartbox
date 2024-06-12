@@ -48,13 +48,6 @@
               About Us
             </h2>
             <ul class="text-black dark:text-gray-400 font-medium">
-              <li class="mb-4">
-                <a
-                  href="https://github.com/themesberg/flowbite"
-                  class="hover:text-orange-400"
-                  >Company Aim</a
-                >
-              </li>
               <li>
                 <a href="/terms" class="hover:text-orange-400"
                   >Terms & Conditions</a

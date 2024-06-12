@@ -46,9 +46,9 @@
             <li>
               <a @click="setActiveAndScroll('/contact', '#Contact')" :class="linkClasses('/contact')" class="navbar-link block py-2 px-3 text-lg rounded md:p-0">CONTACT</a>
             </li>
-            <li>
+            <!-- <li>
               <a @click="setActiveAndScroll('/members', '#Members')" :class="linkClasses('/members')" class="navbar-link block py-2 px-3 text-lg rounded md:p-0">MEMBERS</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
