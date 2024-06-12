@@ -6,7 +6,7 @@
       <h2
         class="text-4xl tracking-tight font-extrabold text-blue-900 dark:text-white"
       >
-        LOCKER SIZE AND PRICE
+        LOCKER SIZE
       </h2>
     </div>
     <div
