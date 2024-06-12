@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-orange-200 dark:bg-gray-900 font-montserrat">
+  <section class="bg-customOrange-300 dark:bg-gray-900 font-montserrat">
     <div class="container mx-auto py-10 px-4 sm:py-20 sm:px-6 lg:px-48">
       <h1
         class="p-4 mb-6 text-3xl sm:text-4xl lg:text-5xl tracking-tight font-extrabold text-blue-900 dark:text-white text-center"
