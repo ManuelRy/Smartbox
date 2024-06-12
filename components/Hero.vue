@@ -22,78 +22,56 @@
           Your Stress-Free Storage Solution
         </h1>
       </div>
-      <div
-        class="overflow-hidden flex justify-center lg:mt-28 mt-8 h-64 lg:h-4/6 w-full lg:w-72 relative images-container"
-      >
-        <div class="relative lg:w-auto h-full w-full">
-          <img
-            src="/img/hero/app.png"
-            alt="mockup"
-            class="intro-img h-full w-full object-contain"
-          />
-        </div>
+      <div class="responsive-container lg:mt-28 lg:col-span-5 lg:flex lg:justify-center">
+        <img src="/img/hero/app.png" alt="mockup" class="responsive-image">
       </div>
     </div>
   </section>
 </template>
 
 <style>
-@media (max-height: 770px) {
-  .images-container {
-    height: 70vh;
-  }
+.responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .intro-img,
-  .home-img {
-    height: 65vh;
-  }
-  #approach {
-    left: 20%;
-    top: 5%;
-  }
-  #image-cv {
-    margin-left: 10%;
+.responsive-image {
+  width: 80%;
+  height: auto;
+  max-height: 80vh;  /* Ensure the image doesn't get too large */
+  object-fit: contain;
+}
+
+/* Media query for screens 1583px wide or less */
+@media (max-width: 1583px) {
+  .responsive-image {
+    width: 70%; /* Adjust the width for better responsiveness */
+    max-height: 70vh; /* Adjust the max-height for better responsiveness */
   }
 }
 
+/* Media query for screens 1024px wide or less */
 @media (max-width: 1024px) {
-  .images-container {
-    height: 50vh;
-  }
-
-  .intro-img,
-  .home-img {
-    height: 100%;
+  .responsive-image {
+    width: 60%; /* Adjust the width for better responsiveness */
+    max-height: 50vh; /* Adjust the max-height for smaller screens */
   }
 }
 
-@media (max-width: 768px) {
-  .images-container {
-    height: 40vh;
-  }
-
-  .intro-img,
-  .home-img {
-    height: 100%;
-  }
-  #approach {
-    left: 20%;
-    top: 5%;
+/* Media query for screens 807px wide or less */
+@media (max-width: 807px) {
+  .responsive-image {
+    width: 50%; /* Adjust the width for better responsiveness */
+    max-height: 40vh; /* Adjust the max-height for smaller screens */
   }
 }
+
+/* Media query for screens 600px wide or less */
 @media (max-width: 600px) {
-  .images-container {
-    height: 40vh;
-    left: -10%;
-  }
-
-  .intro-img,
-  .home-img {
-    height: 100%;
-  }
-  #approach {
-    left: 25%;
-    top: 5%;
+  .responsive-image {
+    width: 40%; /* Adjust the width for better responsiveness */
+    max-height: 30vh; /* Adjust the max-height for smaller screens */
   }
 }
 </style>
