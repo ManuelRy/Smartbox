@@ -12,19 +12,10 @@ onMounted(() => {
 
 <template>
   <div>
-    <!-- <Preloader /> -->
     <Scroll-progress style="z-index: 1051 !important" />
     <NavBar style="z-index: 1050 !important; position: relative" />
     <Hero />
-    <div class="content-container">
       <T&C />
-    </div>
     <Footer />
   </div>
 </template>
-<style scoped>
-.content-container {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-</style>

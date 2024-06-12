@@ -2,12 +2,12 @@
   <section class="bg-orange-200 dark:bg-gray-900 font-montserrat">
     <div class="mx-auto px-4 sm:px-6 lg:px-8 pt-10">
       <h1
-        class="p-4 mb-4 text-5xl tracking-tight font-extrabold text-blue-900 dark:text-white text-center"
+        class="p-4 mb-4 text-3xl sm:text-4xl lg:text-5xl tracking-tight font-extrabold text-blue-900 dark:text-white text-center"
       >
         Terms and Conditions
       </h1>
       <p
-        class="text-center font-semibold mb-12 text-2xl text-balance"
+        class="text-center font-semibold mb-12 text-lg sm:text-xl lg:text-2xl text-balance"
       >
         By agreeing to these Terms and Conditions, the Customer acknowledges
         that they shall not transport or store any items in SmartBox lockers,
@@ -22,7 +22,7 @@
       />
     </div>
     <div
-      class="terms-conditions my-12 mx-auto px-4 sm:px-6 lg:px-8 flex rounded-md border-white p-6 text-xl lg:w-10/12 text-pretty"
+      class="terms-conditions my-12 mx-auto px-4 sm:px-6 lg:px-8 flex rounded-md border-white p-6 text-base sm:text-lg lg:text-xl text-pretty"
     >
       <ul class="list-inside list-image-[url(/img/svgs/arrow-right.svg)]">
         <li>
@@ -37,7 +37,7 @@
           regularly refer to the terms and that any amendments, whether or not
           reviewed by the customer, will constitute the customer’s agreement and
           acceptance of the terms and conditions for this modification.
-          <ul class="ps-5 mt-2 space-y-1 list-inside list-decimal">
+          <ul class="pl-5 mt-2 space-y-1 list-inside list-decimal">
             <li>
               To create an account, customers must enter their name and phone
               number. The customer will receive an OTP code to verify their
@@ -83,7 +83,7 @@
         <li>
           Responsibilities and obligations regarding the information used on the
           SmartBox web application:
-          <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+          <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
             <li>
               When registering and using SmartBox's services through the Web-
               application, customers will provide complete and accurate personal
@@ -121,7 +121,7 @@
         </li>
         <li>
           About the goods sent in SmartBox smart locker
-          <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+          <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
             <li>
               Customers will be responsible before the law for all goods that
               they request from SmartBox to perform services; and are obliged to
@@ -152,7 +152,7 @@
         </li>
         <li>
           Responsibility to notify
-          <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+          <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
             <li>
               The customer must notify SmartBox at 010 505 302 hotline number or
               via email at hello.wearesmartbox@gmail.com if the customer loses
@@ -170,7 +170,7 @@
         </li>
         <li>
           Other Regulations
-          <ul class="ps-5 mt-2 space-y-1 list-decimal list-inside">
+          <ul class="pl-5 mt-2 space-y-1 list-decimal list-inside">
             <li>
               The recipient will receive a text message notifying them that
               their delivery is ready to be picked up from the locker. They have
