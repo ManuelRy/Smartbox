@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ["Montserrat"],
+        poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
         customOrange: {
