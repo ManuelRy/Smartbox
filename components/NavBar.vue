@@ -30,15 +30,15 @@
                 </svg>
               </a>
               <div id="dropdown" class="absolute left-0 z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                <ul class="py-2 text-sm text-black" aria-labelledby="dropdownDefaultButton">
                   <li>
-                    <nuxt-link @click.native="setActiveAndScroll('/storage', '#')" :class="linkClasses('/storage')" to="/storage" class="block px-4 py-2 hover:bg-orange-200 dark:hover:bg-gray-600 dark:hover:text-white">Storage</nuxt-link>
+                    <nuxt-link @click.native="setActiveAndScroll('/storage', '#')" :class="linkClasses('/storage')" to="/storage" class="block px-4 py-2 hover:bg-orange-200 dark:hover:bg-gray-600 text-black">Storage</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link @click.native="setActiveAndScroll('/delivery', '#')" :class="linkClasses('/delivery')" to="/delivery" class="block px-4 py-2 hover:bg-orange-200 dark:hover:bg-gray-600 dark:hover:text-white">Delivery</nuxt-link>
+                    <nuxt-link @click.native="setActiveAndScroll('/delivery', '#')" :class="linkClasses('/delivery')" to="/delivery" class="block px-4 py-2 hover:bg-orange-200 dark:hover:bg-gray-600 dark:hover:text-white text-black">Delivery</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link @click.native="setActiveAndScroll('/events', '#')" :class="linkClasses('/events')" to="/events" class="block px-4 py-2 hover:bg-orange-200 dark:hover:bg-gray-600 dark:hover:text-white">Events</nuxt-link>
+                    <nuxt-link @click.native="setActiveAndScroll('/events', '#')" :class="linkClasses('/events')" to="/events" class="block px-4 py-2 hover:bg-orange-200 dark:hover:bg-gray-600 dark:hover:text-white text-black">Events</nuxt-link>
                   </li>
                 </ul>
               </div>
