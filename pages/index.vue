@@ -1,5 +1,5 @@
 <script setup>
-import { useScroll } from '@vueuse/core';
+import { useScroll } from "@vueuse/core";
 import { onMounted } from "vue";
 import { initFlowbite } from "flowbite";
 import Footer from "~/components/Footer.vue";
@@ -13,16 +13,16 @@ onMounted(() => {
 <template>
   <div>
     <!-- <Preloader /> -->
-    <Scroll-progress style="z-index: 1051 !important"/>
-    <NavBar style="z-index: 1050 !important; position:relative;"/> 
+    <Scroll-progress style="z-index: 1051 !important" />
+    <NavBar style="z-index: 1050 !important; position: relative" />
     <Hero />
     <div class="content-container">
-      <About-us id="About"/> 
+      <About-us id="About" />
       <Services />
-      <ComingSoon />
-      <Contact id="Contact" />
-      <Scroller/>
     </div>
+    <ComingSoon />
+    <Contact id="Contact" />
+    <Scroller />
     <Footer />
   </div>
 </template>
