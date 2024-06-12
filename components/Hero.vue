@@ -13,7 +13,7 @@
         </h1>
         <hr>
         <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-           <nuxt-link class="rounded-md px-5 py-3 m-1 overflow-hidden relative group cursor-pointer bg-white border-2 font-medium text-white" to="#services">
+           <nuxt-link class="rounded-md px-5 py-3 m-1 overflow-hidden relative group cursor-pointer bg-white border-2 font-medium text-white" to="/#services">
              <span
                 class="absolute w-80 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-orange-400 top-1/2 group-hover:h-80 group-hover:-translate-y-32 ease"></span>
               <span
