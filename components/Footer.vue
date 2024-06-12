@@ -53,9 +53,6 @@
                 <a href="#About" class="hover:text-orange-400">About Us</a>
               </li>
               <li class="mb-4">
-                <a href="/" class="hover:text-orange-400">Why SmartBox?</a>
-              </li>
-              <li class="mb-4">
                 <a href="/" class="hover:text-orange-400">Careers</a>
               </li>
               <li class="mb-4">

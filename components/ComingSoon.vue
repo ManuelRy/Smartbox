@@ -1,19 +1,49 @@
 <template>
-  <div>
-    <section class="bg-customOrange-300 dark:bg-gray-900">
-      <div class="px-4 mx-auto max-w-screen-xl py-16 lg:px-6">
-        <div
-          class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-2 md:gap-12 md:space-y-0 overflow-hidden"
-        >
-          <div class="max-w-xs mx-auto rounded-md overflow-hidden">
+  <section class="bg-customOrange-400 dark:bg-gray-900 relative mt-24 pb-1 mb-12">
+    <div class="px-4 mx-auto max-w-screen-xl lg:px-6">
+      <div class="flex flex-col md:flex-row">
+        <div class="relative md:w-1/2 w-full md:transform md:-translate-y-12 ">
+          <img
+            src="/img/app.png"
+            alt="ComingSoonApp"
+            class="w-full max-w-md mx-auto transform -translate-y-12"
+          />
+        </div>
+        <div class="md:w-1/2 w-full mt-10 text-center md:text-left md:ml-10 ">
+          <h1 class="text-5xl font-bold text-white">COMING SOON!</h1>
+          <p class="mt-12 text-2xl text-white">
+            Secure Your Belongings with SmartBox
+          </p>
+          <p class="mt-8 text-2xl text-white">
+            Experience the convenience of a digital locker through SmartBox app.
+          </p>
+          <p class="mt-8 text-2xl text-white">
+            Will be available on both
+          </p>
+          <div class="mt-12 flex justify-center md:justify-start space-x-4">
             <img
-              src="/img/app.png"
-              alt="ComingSoonApp"
-              class= "" style="width: 75rem; height: 50rem;"
+              src="/img/app/apple.svg"
+              alt="App Store"
+              class="w-16"
+            />
+            <img
+              src="/img/app/play.svg"
+              alt="Google Play"
+              class="w-16"
             />
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 </template>
+
+<script>
+export default {
+  name: 'ComingSoon',
+}
+</script>
+
+<style>
+/* Custom styles if needed */
+</style>
