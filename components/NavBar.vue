@@ -18,36 +18,36 @@
         <div :class="menuClasses" class="items-center w-full md:flex md:w-auto md:order-1 ml-auto" id="navbar-sticky">
           <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <nuxt-link @click.native="setActive('home')" :class="linkClasses('home')" to="/" class="navbar-link block py-2 px-3 text-lg rounded md:p-0">HOME</nuxt-link>
+              <nuxt-link exact :to="'/'" :class="linkClasses('/')" class="navbar-link block py-2 px-3 text-lg rounded md:p-0">HOME</nuxt-link>
             </li>
             <li>
-              <nuxt-link @click.native="setActive('about')" :class="linkClasses('about')" to="#About" class="navbar-link block py-2 px-3 text-lg rounded md:p-0">ABOUT</nuxt-link>
+              <a @click="setActiveAndScroll('/about', '#About')" :class="linkClasses('/about')" class="navbar-link block py-2 px-3 text-lg rounded md:p-0">ABOUT</a>
             </li>
             <li class="relative" @mouseover="showDropdown" @mouseleave="hideDropdown">
-              <nuxt-link @click.native="setActive('services')" :class="linkClasses('services')" to="#Service" class="navbar-link block py-2 px-3 text-lg rounded md:p-0">SERVICES
+              <a @click="setActiveAndScroll('/services', '#Service')" :class="linkClasses('/services')" class="navbar-link block py-2 px-3 text-lg rounded md:p-0">SERVICES
                 <svg class="inline w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                 </svg>
-              </nuxt-link>
+              </a>
               <div id="dropdown" class="absolute left-0 z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                 <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                   <li>
-                    <nuxt-link @click.native="setActive('storage')" :class="linkClasses('storage')" to="/storage" class="block px-4 py-2 hover:bg-orange-200 dark:hover:bg-gray-600 dark:hover:text-white">Storage</nuxt-link>
+                    <nuxt-link @click.native="setActive('/storage')" :class="linkClasses('/storage')" to="/storage" class="block px-4 py-2 hover:bg-orange-200 dark:hover:bg-gray-600 dark:hover:text-white">Storage</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link @click.native="setActive('delivery')" :class="linkClasses('delivery')" to="/delivery" class="block px-4 py-2 hover:bg-orange-200 dark:hover:bg-gray-600 dark:hover:text-white">Delivery</nuxt-link>
+                    <nuxt-link @click.native="setActive('/delivery')" :class="linkClasses('/delivery')" to="/delivery" class="block px-4 py-2 hover:bg-orange-200 dark:hover:bg-gray-600 dark:hover:text-white">Delivery</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link @click.native="setActive('events')" :class="linkClasses('events')" to="/events" class="block px-4 py-2 hover:bg-orange-200 dark:hover:bg-gray-600 dark:hover:text-white">Events</nuxt-link>
+                    <nuxt-link @click.native="setActive('/events')" :class="linkClasses('/events')" to="/events" class="block px-4 py-2 hover:bg-orange-200 dark:hover:bg-gray-600 dark:hover:text-white">Events</nuxt-link>
                   </li>
                 </ul>
               </div>
             </li>
             <li>
-              <nuxt-link @click.native="setActive('contact')" :class="linkClasses('contact')" to="#Contact" class="navbar-link block py-2 px-3 text-lg rounded md:p-0">CONTACT</nuxt-link>
+              <a @click="setActiveAndScroll('/contact', '#Contact')" :class="linkClasses('/contact')" class="navbar-link block py-2 px-3 text-lg rounded md:p-0">CONTACT</a>
             </li>
             <li>
-              <nuxt-link @click.native="setActive('members')" :class="linkClasses('members')" to="#Members" class="navbar-link block py-2 px-3 text-lg rounded md:p-0">MEMBERS</nuxt-link>
+              <a @click="setActiveAndScroll('/members', '#Members')" :class="linkClasses('/members')" class="navbar-link block py-2 px-3 text-lg rounded md:p-0">MEMBERS</a>
             </li>
           </ul>
         </div>
@@ -61,8 +61,13 @@ export default {
   data() {
     return {
       isMenuOpen: false,
-      activeItem: 'home', // Default active item
+      activeItem: this.$route.path,
     };
+  },
+  watch: {
+    '$route.path': function(newPath) {
+      this.activeItem = newPath;
+    }
   },
   methods: {
     toggleMenu() {
@@ -77,8 +82,18 @@ export default {
     setActive(item) {
       this.activeItem = item;
     },
+    setActiveAndScroll(item, selector) {
+      this.setActive(item);
+      const element = document.querySelector(selector);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    },
     linkClasses(item) {
-      return this.activeItem === item ? 'text-orange-400 md:text-orange-400 dark:text-blue-500' : 'text-gray-900 md:text-gray-900 dark:text-white';
+      return {
+        'navbar-link-active': this.activeItem === item || (this.activeItem.startsWith('/services') && item === '/services'),
+        'navbar-link': true,
+      };
     },
   },
   computed: {
@@ -98,6 +113,12 @@ export default {
 <style>
 .navbar-link {
   position: relative;
+  color: gray;
+  cursor: pointer; /* Add cursor pointer for hover */
+}
+.navbar-link:hover,
+.navbar-link-active {
+  color: orange;
 }
 .navbar-link::after {
   content: "";
@@ -111,7 +132,8 @@ export default {
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.navbar-link:hover::after {
+.navbar-link:hover::after,
+.navbar-link-active::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
