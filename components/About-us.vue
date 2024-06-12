@@ -21,7 +21,7 @@
           </div>
         </div>
         <div
-          class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
+          class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0 overflow-hidden"
         >
           <div
             class="max-w-xs mx-auto rounded-md overflow-hidden"

@@ -16,7 +16,7 @@
         class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 sm:p-8 lg:p-10"
       >
         <h1
-          class="p-4 mb-6 text-3xl sm:text-4xl lg:text-5xl tracking-tight font-extrabold text-orange-500 dark:text-white text-center"
+          class="p-4 mb-6 text-2xl sm:text-3xl lg:text-4xl tracking-tight font-extrabold text-orange-500 dark:text-white text-center"
         >
           Contact Us for More Information
         </h1>
@@ -24,13 +24,13 @@
           class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6"
         >
           <p
-            class="text-gray-800 dark:text-gray-300 text-center font-medium text-lg sm:text-xl lg:text-2xl flex items-center"
+            class="text-gray-800 dark:text-gray-300 text-center font-medium text-base sm:text-lg lg:text-xl flex items-center"
           >
             <Icon name="fa6-solid:envelope" class="mr-2" />
             hello.wearesmartbox@gmail.com
           </p>
           <p
-            class="text-gray-800 dark:text-gray-300 text-center font-medium text-lg sm:text-xl lg:text-2xl flex items-center"
+            class="text-gray-800 dark:text-gray-300 text-center font-medium text-base sm:text-lg lg:text-xl flex items-center"
           >
             <Icon name="fa6-solid:phone" class="mr-2" />
             010 505 302

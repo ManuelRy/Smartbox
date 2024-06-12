@@ -15,8 +15,8 @@ onMounted(() => {
     <!-- <Preloader /> -->
     <Scroll-progress style="z-index: 1051 !important" />
     <NavBar style="z-index: 1050 !important; position: relative" />
+    <Hero />
     <div class="content-container">
-      <Hero />
       <StorageInfo />
       <StorageBox-size />
     </div>

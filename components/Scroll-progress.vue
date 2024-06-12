@@ -15,5 +15,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div id="scroll-progress" class="bg-blue-900 h-1 fixed top-0 left-0 z-50"></div>
+  <div id="scroll-progress" class="bg-blue-900 h-1 fixed top-0 left-0 z-50">
+    
+  </div>
 </template>
