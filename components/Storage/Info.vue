@@ -1,16 +1,18 @@
 <template>
   <section class="bg-white dark:bg-gray-900 font-montserrat">
-    <div class="mx-48 pt-10">
+    <div class="pt-10 text-center">
       <h1
-        class="mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
+        class="mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center sm:text-left"
       >
         Storage
       </h1>
-      <p class="text-center font-medium mb-12 text-lg sm:text-2xl text-pretty">
+      <p
+        class="font-medium mb-12 text-lg sm:text-2xl text-pretty text-center sm:text-left"
+      >
         Offers a convenient and secure storage solution for your belongings
       </p>
       <p
-        class="text-center font-medium mb-12 text-lg sm:text-2xl text-pretty text-red-700"
+        class="font-medium mb-12 text-lg sm:text-2xl text-pretty text-red-700 text-center sm:text-left"
       >
         HOW TO USE IT?
       </p>
@@ -270,6 +272,12 @@ export default {
 </script>
 
 <style scoped>
+.pt-10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .step-item {
   display: flex;
   flex-direction: column;
@@ -288,5 +296,13 @@ export default {
 
 .step-info {
   margin-top: 1rem;
+}
+@media (max-width: 640px) {
+  .pt-10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 </style>

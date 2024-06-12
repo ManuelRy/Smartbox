@@ -1,6 +1,6 @@
 <template>
   <section class="font-montserrat bg-white dark:bg-gray-900">
-    <div class="mx-48 pt-10">
+    <div class="pt-10">
       <h1
         class="mb-4 text-5xl tracking-tight font-sans font-extrabold text-blue-900 dark:text-white text-center"
       >
@@ -15,7 +15,7 @@
         HOW TO USE IT?
       </p>
     </div>
-    <div class="btn flex justify-center align-center">
+    <div class="btn flex justify-center align-center mb-2">
       <button
         type="button"
         class="focus:outline-none text-white font-medium rounded-lg text-lg px-8 py-4 me-0 -ml-1"
@@ -34,7 +34,7 @@
       </button>
     </div>
     <div v-if="showStore" class="to-store">
-      <section class="bg-white  dark:bg-gray-900" data-aos="fade-up">
+      <section class="bg-white dark:bg-gray-900" data-aos="fade-up">
         <div class="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="grid gap-14 md:grid-cols-4 md:gap-2">
             <div
@@ -270,6 +270,12 @@ export default {
 </script>
 
 <style scoped>
+.pt-10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .step-item {
   display: flex;
   flex-direction: column;
@@ -288,5 +294,13 @@ export default {
 
 .step-info {
   margin-top: 1rem;
+}
+@media (max-width: 640px) {
+  .pt-10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 </style>
