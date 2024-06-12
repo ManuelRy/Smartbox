@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="bg-gray-100 dark:bg-gray-900 overflow-hidden font-montserrat"
+    class="bg-customGray-300 dark:bg-gray-900 overflow-hidden font-montserrat"
     data-aos="fade-up"
   >
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -26,7 +26,7 @@
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
             <h2
-              class="mb-6 text-md font-semibold text-orange-400 uppercase dark:text-white"
+              class="mb-6 text-md font-semibold text-black uppercase dark:text-white"
             >
               Service
             </h2>
@@ -44,13 +44,14 @@
           </div>
           <div>
             <h2
-              class="mb-6 text-md font-semibold text-orange-400 uppercase dark:text-white"
+              class="mb-6 text-md font-semibold text-black uppercase dark:text-white"
             >
               About 
             </h2>
             <ul class="text-black dark:text-gray-400 font-medium">
               <li class="mb-4">
-                <a href="#About" class="hover:text-orange-400">About Us</a>
+                <nuxt-link to="/#About"><a  class="hover:text-orange-400">About Us</a></nuxt-link>
+                
               </li>
               <li class="mb-4">
                 <a href="/" class="hover:text-orange-400">Careers</a>
@@ -62,7 +63,7 @@
           </div>
           <div>
             <h2
-              class="mb-6 text-md font-semibold text-orange-400 uppercase dark:text-white"
+              class="mb-6 text-md font-semibold text-black uppercase dark:text-white"
             >
               Terms
             </h2>

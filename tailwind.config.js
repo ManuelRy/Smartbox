@@ -19,6 +19,9 @@ module.exports = {
         customOrange: {
           '300': '#f3bd7f',
           '400': '#E98824',
+        },
+        customGray: {
+          '300': '#F5F6F6', 
         }
       }
     },
