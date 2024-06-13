@@ -208,8 +208,8 @@ export default {
   computed: {
     menuClasses() {
       return {
-        "hidden-menu": !this.isMenuOpen,
-        "block-menu": this.isMenuOpen,
+        hidden: !this.isMenuOpen,
+        block: this.isMenuOpen,
         "transition-all": true,
         "duration-300": true,
         "ease-in-out": true,
@@ -248,24 +248,5 @@ export default {
 }
 .relative:hover #dropdown {
   display: block;
-}
-
-/* Media query to handle the hamburger menu */
-@media (max-width: 900px) {
-  .navbar-link {
-    display: none;
-  }
-
-  .hamburger {
-    display: inline-flex;
-  }
-
-  .hidden-menu {
-    display: none;
-  }
-
-  .block-menu {
-    display: block;
-  }
 }
 </style>
