@@ -7,7 +7,11 @@
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
           <a href="/" class="flex items-center">
-            <img src="/img/logo.png" class="h-16" alt="SmartBox Logo" />
+            <img
+              src="/img/SmartBox_Logo.png"
+              class="ml-12 w-36 h-36"
+              alt="SmartBox Logo"
+            />
           </a>
           <h2 class="ml-12 mt-2 mb-6 text-lg font-extrabold">Contact Us</h2>
           <p class="ml-12 mb-6">
@@ -46,12 +50,13 @@
             <h2
               class="mb-6 text-md font-semibold text-black uppercase dark:text-white"
             >
-              About 
+              About
             </h2>
             <ul class="text-black dark:text-gray-400 font-medium">
               <li class="mb-4">
-                <nuxt-link to="/#About"><a  class="hover:text-orange-400">About Us</a></nuxt-link>
-                
+                <nuxt-link to="/#About"
+                  ><a class="hover:text-orange-400">About Us</a></nuxt-link
+                >
               </li>
               <li class="mb-4">
                 <a href="/" class="hover:text-orange-400">Careers</a>

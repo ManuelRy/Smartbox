@@ -12,7 +12,7 @@
           class="flex items-center space-x-3 rtl:space-x-reverse"
           @click.native="setActiveAndScroll('/', '#')"
         >
-          <img src="/img/logo.png" class="h-16" alt="Smartbox Logo" />
+          <img src="/img/logo.png" class="ml-32 h-16" alt="Smartbox Logo" />
         </nuxt-link>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <button
@@ -43,7 +43,7 @@
         </div>
         <div
           :class="menuClasses"
-          class="items-center w-full md:flex md:w-auto md:order-1 ml-auto md:mr-12"
+          class="items-center w-full md:flex md:w-auto md:order-1 ml-auto mr-32"
           id="navbar-sticky"
         >
           <ul
@@ -208,8 +208,8 @@ export default {
   computed: {
     menuClasses() {
       return {
-        hidden: !this.isMenuOpen,
-        block: this.isMenuOpen,
+        "hidden-menu": !this.isMenuOpen,
+        "block-menu": this.isMenuOpen,
         "transition-all": true,
         "duration-300": true,
         "ease-in-out": true,
@@ -248,5 +248,24 @@ export default {
 }
 .relative:hover #dropdown {
   display: block;
+}
+
+/* Media query to handle the hamburger menu */
+@media (max-width: 900px) {
+  .navbar-link {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline-flex;
+  }
+
+  .hidden-menu {
+    display: none;
+  }
+
+  .block-menu {
+    display: block;
+  }
 }
 </style>

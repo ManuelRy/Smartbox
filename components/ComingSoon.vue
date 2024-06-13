@@ -20,11 +20,11 @@
           <p class="mt-8 text-2xl text-white">
             Will be available on both
           </p>
-          <div class="mt-12 flex justify-center md:justify-start space-x-4">
+          <div class="mt-2 flex justify-center md:justify-start space-x-4">
             <img
-              src="/img/apple.webp"
+              src="/img/app_store.svg"
               alt="App Store"
-              class="w-44 object-contain"
+              class="w-36"
             />
             <img
               src="/img/google.svg"
