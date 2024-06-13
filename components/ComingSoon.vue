@@ -22,14 +22,14 @@
           </p>
           <div class="mt-12 flex justify-center md:justify-start space-x-4">
             <img
-              src="/img/app/apple.svg"
+              src="/img/apple.webp"
               alt="App Store"
-              class="w-16"
+              class="w-44 object-contain"
             />
             <img
-              src="/img/app/play.svg"
+              src="/img/google.svg"
               alt="Google Play"
-              class="w-16"
+              class="w-36"
             />
           </div>
         </div>
